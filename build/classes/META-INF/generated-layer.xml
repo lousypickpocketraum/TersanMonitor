@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="xml">
+        <folder name="entities">
+            <folder name="com_trs_bt_windows">
+                <file name="EditorMonitor" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--com.trs.bt.windows.EditorMonitorTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//com.trs.bt.windows//EditorMonitor//EN"/>
+                </file>
+                <file name="ExplorerTreeMonitor" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--com.trs.bt.windows.ExplorerTreeMonitorTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//com.trs.bt.windows//ExplorerTreeMonitor//EN"/>
+                </file>
+            </folder>
+        </folder>
+        <folder name="memory">
+            <folder name="com">
+                <folder name="trs">
+                    <folder name="bt">
+                        <folder name="windows">
+                            <file name="EditorMonitorTopComponent">
+                                <!--com.trs.bt.windows.EditorMonitorTopComponent-->
+                                <attr name="settings.providerPath" stringvalue="xml/lookups//com_trs_bt_windows/EditorMonitor.instance"/>
+                            </file>
+                            <file name="ExplorerTreeMonitorTopComponent">
+                                <!--com.trs.bt.windows.ExplorerTreeMonitorTopComponent-->
+                                <attr name="settings.providerPath" stringvalue="xml/lookups//com_trs_bt_windows/ExplorerTreeMonitor.instance"/>
+                            </file>
+                        </folder>
+                    </folder>
+                </folder>
+            </folder>
+        </folder>
+        <folder name="lookups">
+            <folder name="com_trs_bt_windows">
+                <file name="EditorMonitor.instance">
+                    <!--com.trs.bt.windows.EditorMonitorTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="com.trs.bt.windows.EditorMonitorTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="com.trs.bt.windows.EditorMonitorTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+                <file name="ExplorerTreeMonitor.instance">
+                    <!--com.trs.bt.windows.ExplorerTreeMonitorTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="com.trs.bt.windows.ExplorerTreeMonitorTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="com.trs.bt.windows.ExplorerTreeMonitorTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Window">
+            <file name="com-trs-bt-windows-EditorMonitorTopComponent.shadow">
+                <!--com.trs.bt.windows.EditorMonitorTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/com-trs-bt-windows-EditorMonitorTopComponent.instance"/>
+            </file>
+            <file name="com-trs-bt-windows-ExplorerTreeMonitorTopComponent.shadow">
+                <!--com.trs.bt.windows.ExplorerTreeMonitorTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/com-trs-bt-windows-ExplorerTreeMonitorTopComponent.instance"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="EditorMonitorTopComponent.settings">
+                <!--com.trs.bt.windows.EditorMonitorTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="com.trs.bt.windows.EditorMonitorTopComponent"/>
+</settings>
+]]></file>
+            <file name="ExplorerTreeMonitorTopComponent.settings">
+                <!--com.trs.bt.windows.ExplorerTreeMonitorTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="com.trs.bt.windows.ExplorerTreeMonitorTopComponent"/>
+</settings>
+]]></file>
+        </folder>
+        <folder name="Modes">
+            <folder name="editor">
+                <file name="EditorMonitorTopComponent.wstcref">
+                    <!--com.trs.bt.windows.EditorMonitorTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="EditorMonitorTopComponent"/>
+  <state opened="true"/>
+</tc-ref>
+]]></file>
+            </folder>
+            <folder name="explorer">
+                <file name="ExplorerTreeMonitorTopComponent.wstcref">
+                    <!--com.trs.bt.windows.ExplorerTreeMonitorTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="ExplorerTreeMonitorTopComponent"/>
+  <state opened="true"/>
+</tc-ref>
+]]></file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Actions">
+        <folder name="Window">
+            <file name="com-trs-bt-windows-EditorMonitorTopComponent.instance">
+                <!--com.trs.bt.windows.EditorMonitorTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="com.trs.bt.windows.EditorMonitorTopComponent"/>
+                <attr name="preferredID" stringvalue="EditorMonitorTopComponent"/>
+                <attr
+                    bundlevalue="com.trs.bt.windows.Bundle#CTL_EditorMonitorAction" name="displayName"/>
+            </file>
+            <file name="com-trs-bt-windows-ExplorerTreeMonitorTopComponent.instance">
+                <!--com.trs.bt.windows.ExplorerTreeMonitorTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="com.trs.bt.windows.ExplorerTreeMonitorTopComponent"/>
+                <attr name="preferredID" stringvalue="ExplorerTreeMonitorTopComponent"/>
+                <attr
+                    bundlevalue="com.trs.bt.windows.Bundle#CTL_ExplorerTreeMonitorAction" name="displayName"/>
+            </file>
+        </folder>
+    </folder>
+</filesystem>
