@@ -1,5 +1,5 @@
 -------------------------------------------------------------------------------
->Log Session: Monday, July 26, 2021 11:44:04 AM TRT
+>Log Session: Tuesday, July 27, 2021 3:11:44 PM TRT
 >System Info: 
   Product Version         = Apache NetBeans IDE 12.0
   Operating System        = Linux version 5.8.0-59-generic running on amd64
@@ -36,6 +36,7 @@ INFO [org.netbeans.modules.netbinox]: Install area set to file:/home/btstajyer/
 WARNING [org.netbeans.core.modules]: the modules [org.netbeans.modules.xml.text] use org.netbeans.modules.editor.deprecated.pre65formatting which is deprecated.
 WARNING [org.netbeans.core.modules]: the modules [org.netbeans.modules.ide.kit, org.netbeans.modules.xml.text] use org.netbeans.modules.editor.structure which is deprecated.
 WARNING [org.openide.filesystems.Ordering]: Not all children in Services/ marked with the position attribute: [AutoupdateType, Browsers, Bugtracking, DiffProviders, Hidden, IndentEngine, Introspector, JavaHelp, MIMEResolver, OptionProcessors, ProjectConvertors, PropertyEditorManager, VersioningSystem], but some are: [org-netbeans-modules-selenium2-SeleniumTestCreatorProvider.instance]
+WARNING [org.netbeans.core.startup.InstalledFileLocatorImpl]: no code name base passed when looking up build_info at org.netbeans.modules.uihandler.BuildInfo.logBuildInfo(BuildInfo.java:61)
 INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
 	slf4j.jdk14 [1.7.28 1.7.28]
 	slf4j.api [1.7.28 1.7.28]
@@ -373,31 +374,30 @@ INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
 	org.apache.ws.commons.util [1.0.1 1.0.1]
 	org.apache.commons.lang [2.6 2.6]
 	org.apache.commons.codec [1.13.0 1.13.0]
-	com.trs.bt [1.0 210726]
+	com.trs.bt [1.0 210727]
 	com.jcraft.jzlib [1.1.3 1.1.3]
 	com.googlecode.javaewah.JavaEWAH [1.1.6 1.1.6]
 	bcprov [1.64 1.64]
 	bcpg [1.64 1.64]
-INFO [org.netbeans.core.netigso.Netigso]: bundle org.apache.commons.io@2.6.0 resolved
-INFO [org.netbeans.core.netigso.Netigso]: bundle net.java.html.json@1.7.0 resolved
-INFO [org.netbeans.core.netigso.Netigso]: bundle net.java.html.boot@1.7.0 resolved
-INFO [org.netbeans.core.netigso.Netigso]: bundle org.netbeans.html.ko4j@1.7.0 resolved
-INFO [org.netbeans.core.netigso.Netigso]: bundle net.java.html@1.7.0 resolved
-INFO [org.netbeans.core.netigso.Netigso]: bundle net.java.html.boot.fx@1.7.0 resolved
-INFO [org.netbeans.core.netigso.Netigso]: bundle net.java.html.sound@1.7.0 resolved
-INFO [org.netbeans.core.netigso.Netigso]: bundle org.netbeans.html.xhr4j@1.7.0 resolved
-INFO [org.netbeans.core.netigso.Netigso]: bundle net.java.html.geo@1.7.0 resolved
 INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.mylyn.wikitext.markdown.core@2.6.0.v20150901-2143 resolved
 INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.mylyn.wikitext.confluence.core@2.6.0.v20150901-2143 resolved
 INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.mylyn.wikitext.textile.core@2.6.0.v20150901-2143 resolved
+INFO [org.netbeans.core.netigso.Netigso]: bundle org.apache.commons.io@2.6.0 resolved
+INFO [org.netbeans.core.netigso.Netigso]: bundle net.java.html@1.7.0 resolved
+INFO [org.netbeans.core.netigso.Netigso]: bundle net.java.html.json@1.7.0 resolved
+INFO [org.netbeans.core.netigso.Netigso]: bundle net.java.html.boot.fx@1.7.0 resolved
+INFO [org.netbeans.core.netigso.Netigso]: bundle net.java.html.boot@1.7.0 resolved
+INFO [org.netbeans.core.netigso.Netigso]: bundle org.netbeans.html.ko4j@1.7.0 resolved
 INFO [org.netbeans.core.netigso.Netigso]: bundle net.java.html.boot.script@1.7.0 resolved
+INFO [org.netbeans.core.netigso.Netigso]: bundle net.java.html.sound@1.7.0 resolved
+INFO [org.netbeans.core.netigso.Netigso]: bundle net.java.html.geo@1.7.0 resolved
+INFO [org.netbeans.core.netigso.Netigso]: bundle org.netbeans.html.xhr4j@1.7.0 resolved
 INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.9.1.v20140110-1610 started
 INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy resolver: Gnome
 INFO [org.netbeans.core.network.proxy.gnome.GsettingsNetworkProxy]: GSettings system proxy resolver: direct connection
 INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy reloading succeeded.
 INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy - mode: direct
 INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy: fell to default (correct if direct mode went before)
-INFO [org.openide.awt.Toolbar]: Too long AWTTask: 615 ms for org.openide.awt.MenuBar$MenuBarFolder@71d5b0ab(FolderList{MultiFileObject@3795c51a[Menu]})
 Diagnostic information
 Input arguments:
 	-Djdk.home=/usr/lib/jvm/java-8-openjdk-amd64
@@ -445,58 +445,12 @@ Input arguments:
 Compiler: HotSpot 64-Bit Tiered Compilers
 Heap memory usage: initial 62,0MB maximum 951,2MB
 Non heap memory usage: initial 2,4MB maximum -1b
-Garbage collector: Copy (Collections=54 Total time spent=0s)
+Garbage collector: Copy (Collections=53 Total time spent=0s)
 Garbage collector: MarkSweepCompact (Collections=2 Total time spent=0s)
-Classes: loaded=7367 total loaded=7367 unloaded 0
+Classes: loaded=7373 total loaded=7373 unloaded 0
 INFO [org.netbeans.core.ui.warmup.DiagnosticTask]: Total memory 4.127.072.256
 WARNING [org.openide.filesystems.Ordering]: Not all children in Menu/Window/ marked with the position attribute: [com-trs-bt-windows-EditorMonitorTopComponent.shadow, com-trs-bt-windows-ExplorerTreeMonitorTopComponent.shadow], but some are: [org-netbeans-modules-project-ui-logical-tab-action.shadow, org-netbeans-modules-project-ui-physical-tab-action.shadow, org-netbeans-modules-favorites-View.shadow, org-netbeans-core-ide-ServicesTabAction.shadow, org-netbeans-modules-navigator-ShowNavigatorAction.shadow, org-netbeans-modules-tasks-ui-DashboardTopComponent.shadow, org-netbeans-core-io-ui-IOWindowAction.shadow, SwitchToRecentDocumentAction.shadow, Web, Tools, Separator3.instance, ConfigureWindow, org-netbeans-core-windows-actions-ResetWindowsAction.shadow, Separator4.instance, CloseWindowAction.shadow, CloseAllDocumentsAction.shadow, CloseAllButThisAction.shadow, GroupsMenuAction.shadow, DocumentsAction.shadow]
-WARNING [org.netbeans.core.TimableEventQueue]: too much time in AWT thread org.netbeans.modules.sampler.InternalSampler@c916f9a
-SEVERE [global]
-java.lang.IndexOutOfBoundsException: Index: 6, Size: 6
-	at java.util.ArrayList.rangeCheck(ArrayList.java:659)
-	at java.util.ArrayList.get(ArrayList.java:435)
-	at com.trs.bt.windows.EditorMonitorTopComponent.btnTaraActionPerformed(EditorMonitorTopComponent.java:161)
-	at com.trs.bt.windows.EditorMonitorTopComponent.access$000(EditorMonitorTopComponent.java:44)
-	at com.trs.bt.windows.EditorMonitorTopComponent$1.actionPerformed(EditorMonitorTopComponent.java:92)
-	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
-	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348)
-	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
-	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
-	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
-	at java.awt.Component.processMouseEvent(Component.java:6539)
-	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
-	at java.awt.Component.processEvent(Component.java:6304)
-	at java.awt.Container.processEvent(Container.java:2239)
-	at java.awt.Component.dispatchEventImpl(Component.java:4889)
-	at java.awt.Container.dispatchEventImpl(Container.java:2297)
-	at java.awt.Component.dispatchEvent(Component.java:4711)
-	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4904)
-	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4535)
-	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4476)
-	at java.awt.Container.dispatchEventImpl(Container.java:2283)
-	at java.awt.Window.dispatchEventImpl(Window.java:2746)
-	at java.awt.Component.dispatchEvent(Component.java:4711)
-	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:760)
-	at java.awt.EventQueue.access$500(EventQueue.java:97)
-	at java.awt.EventQueue$3.run(EventQueue.java:709)
-	at java.awt.EventQueue$3.run(EventQueue.java:703)
-	at java.security.AccessController.doPrivileged(Native Method)
-	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
-	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
-	at java.awt.EventQueue$4.run(EventQueue.java:733)
-	at java.awt.EventQueue$4.run(EventQueue.java:731)
-	at java.security.AccessController.doPrivileged(Native Method)
-	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
-	at java.awt.EventQueue.dispatchEvent(EventQueue.java:730)
-	at org.netbeans.core.TimableEventQueue.dispatchEvent(TimableEventQueue.java:136)
-[catch] at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
-	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
-	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
-	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
-	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
-	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
-INFO [java.util.prefs]: Created user preferences directory.
-WARNING [org.netbeans.modules.keyring.fallback.MasterPasswordEncryption]: Falling back to master password encryption; add -J-Dorg.netbeans.modules.keyring.level=0 to netbeans.conf to see why native keyrings could not be loaded
 INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.9.1.v20140110-1610 256
 INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.9.1.v20140110-1610 stopped
 INFO [null]: Last record repeated again.
+WARNING [org.netbeans.modules.progress.spi.InternalHandle]: Cannot switch to silent mode when not running at org.netbeans.core.ui.warmup.MenuWarmUpTask$NbWindowsAdapter$1HandleBridge.run(MenuWarmUpTask.java:244)

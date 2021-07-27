@@ -47,6 +47,7 @@ public final class ExplorerTreeMonitorTopComponent extends TopComponent {
         setToolTipText(Bundle.HINT_ExplorerTreeMonitorTopComponent());
         componentTransporter=ComponentTransporter.getComponentTransporter();
         componentTransporter.setTopComponentExplorerTreeMonitor(this);
+        treeIpAddress.setName("MYJTREE");
     }
 
     /**
@@ -101,17 +102,15 @@ public final class ExplorerTreeMonitorTopComponent extends TopComponent {
     // End of variables declaration//GEN-END:variables
     @Override
     public void componentOpened() {
-        treeNodeRoot = new DefaultMutableTreeNode("Trs Ip Adres");
-        
-        DefaultMutableTreeNode ip1
-                = new DefaultMutableTreeNode(" ");
-        DefaultMutableTreeNode ip2
-                = new DefaultMutableTreeNode(" ");
-        treeNodeRoot.add(ip1);
-        treeNodeRoot.add(ip2);
+        treeNodeRoot = new DefaultMutableTreeNode("Ip Adresi");
+//        DefaultMutableTreeNode ip1
+//                = new DefaultMutableTreeNode(" asd");
+//        DefaultMutableTreeNode ip2
+//                = new DefaultMutableTreeNode(" asd");
+//        treeNodeRoot.add(ip1);
+//        treeNodeRoot.add(ip2);
         DefaultTreeModel defaultTreeModel = new DefaultTreeModel(treeNodeRoot);
         treeIpAddress.setModel(defaultTreeModel);
-
         this.setVisible(true);
     }
 
@@ -132,7 +131,7 @@ public final class ExplorerTreeMonitorTopComponent extends TopComponent {
         // TODO read your settings according to their version
     }
     
-    public void transportMe(String s){
-        treeNodeRoot.add(treeNodeRoot);
-    }
+//    public void transportMe(String s){
+//        treeNodeRoot.add(treeNodeRoot);
+//    }
 }

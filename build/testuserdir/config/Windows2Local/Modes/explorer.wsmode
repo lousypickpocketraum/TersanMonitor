@@ -6,10 +6,10 @@
   <kind type="view" />
   <state type="joined"  />
   <constraints>
-    <path orientation="horizontal" number="20" weight="0.3"/>
+    <path orientation="horizontal" number="20" weight="0.2918693537178596"/>
     <path orientation="vertical" number="20" weight="0.5"/>
   </constraints>
-  <bounds x="128" y="177" width="296" height="274" />
+  <bounds x="160" y="245" width="369" height="378" />
   <frame state="0"/>
     <active-tc  id="ExplorerTreeMonitorTopComponent" />
     <empty-behavior permanent="true"/>

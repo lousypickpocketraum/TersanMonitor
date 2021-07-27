@@ -3,10 +3,10 @@
 <windowmanager version="2.1">
     <main-window>
   <joined-properties
-   x="100"
-   y="51"
-   width="1159"
-   height="666"
+   x="97"
+   y="156"
+   width="1447"
+   height="731"
    relative-x="0.0"
    relative-y="0.0"
    relative-width="0.0"
@@ -15,13 +15,13 @@
    centered-vertically="false"
    maximize-if-width-below="0"
    maximize-if-height-below="0"
-   frame-state="6"
+   frame-state="0"
 />
   <separated-properties
-   x="165"
-   y="74"
-   width="1030"
-   height="59"
+   x="197"
+   y="102"
+   width="1286"
+   height="81"
    relative-x="0.0"
    relative-y="0.0"
    relative-width="0.0"
@@ -33,19 +33,22 @@
   </main-window>
     <editor-area state="joined" frame-state="0">
   <constraints>
-  <path orientation="horizontal" number="60" weight="0.7" />
+  <path orientation="horizontal" number="60" weight="0.7053509381514941" />
   <path orientation="vertical" number="40" weight="0.7" />
   <path orientation="horizontal" number="40" weight="0.7" />
   <path orientation="vertical" number="40" weight="0.5" />
   </constraints>
-  <bounds x="425" y="177" width="540" height="326" />
+  <bounds x="530" y="245" width="675" height="450" />
     </editor-area>
-    <screen width="1360" height="768"/>
+    <screen width="1680" height="1050"/>
     <active-mode name="editor"/>
     <toolbar configuration="Standard" preferred-icon-size="24"/>
     <tc-list>
   <tc-id id="EditorMonitorTopComponent"/>
-  <tc-id id="ExplorerTreeMonitorTopComponent"/>
   <tc-id id="Welcome"/>
+  <tc-id id="ExplorerTreeMonitorTopComponent"/>
+  <tc-id id="projectTabLogical_tc"/>
+  <tc-id id="projectTab_tc"/>
+  <tc-id id="services"/>
     </tc-list>
 </windowmanager>

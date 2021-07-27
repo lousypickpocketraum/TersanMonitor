@@ -7,10 +7,10 @@ package com.trs.bt.windows;
 
 import static com.trs.bt.controller.PrinterController.sendPingRequest;
 import com.trs.bt.providers.ComponentTransporter;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import javax.swing.DefaultListModel;
+import model.HostPrinter;
 import org.netbeans.api.settings.ConvertAsProperties;
 import org.openide.awt.ActionID;
 import org.openide.awt.ActionReference;
@@ -42,13 +42,15 @@ import org.openide.util.NbBundle.Messages;
     "HINT_EditorMonitorTopComponent=This is a EditorMonitor window"
 })
 public final class EditorMonitorTopComponent extends TopComponent {
-private final ComponentTransporter componentTransporter;
+
+    private final ComponentTransporter componentTransporter;
+    private List<HostPrinter> ipHPList;
 
     public EditorMonitorTopComponent() {
         initComponents();
         setName(Bundle.CTL_EditorMonitorTopComponent());
         setToolTipText(Bundle.HINT_EditorMonitorTopComponent());
-        componentTransporter=ComponentTransporter.getComponentTransporter();
+        componentTransporter = ComponentTransporter.getComponentTransporter();
         componentTransporter.setTopComponentEditorMonitor(this);
     }
 
@@ -150,30 +152,21 @@ private final ComponentTransporter componentTransporter;
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnTaraActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnTaraActionPerformed
-        
-        List<String> ipList = null;
-        try {
-            DefaultListModel listModel = new DefaultListModel();
-            ipList =new ArrayList<>();
-            String ipAddress = txtIpAddress.getText();
-            ipList=sendPingRequest(ipAddress);
-            for (int i = 0; i <= ipList.size(); i++) {
-                listModel.addElement(ipList.get(i));                
-                lstResult.setModel(listModel);
-            }
 
-        } catch (IOException ex) {
-            System.out.println("Ex: "+ex.getMessage());
-
+        DefaultListModel listModel = new DefaultListModel();
+        ipHPList = new ArrayList<>();
+        String ipAddress = txtIpAddress.getText();
+        // İp listresini aldık
+        ipHPList = sendPingRequest(ipAddress);
+        // GUI Tree için modelimiz oluşturduk
+        for (HostPrinter hostPrinter : ipHPList) {
+            listModel.addElement(hostPrinter);
         }
-//        TopComponent tp=componentTransporter.getTopComponentExplorerTreeMonitor();
-//        for (String string : ipList) {
-//            tp.filltreescomomc
-//        }
-        componentTransporter.setIpList(ipList);
+        lstResult.setModel(listModel);
+        // Expolorer componenti için ip listesini gönderdik
+        componentTransporter.setIpList(ipHPList);
         componentTransporter.fillTree();
-        
-        
+
     }//GEN-LAST:event_btnTaraActionPerformed
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

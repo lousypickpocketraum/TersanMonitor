@@ -10,6 +10,7 @@ import java.net.InetAddress;
 import java.net.UnknownHostException;
 import java.util.ArrayList;
 import java.util.List;
+import model.HostPrinter;
 
 /**
  *
@@ -17,16 +18,23 @@ import java.util.List;
  */
 public class PrinterController {
 
-    public static List<String> sendPingRequest(String ipAddress)
-            throws UnknownHostException, IOException {
-        List<String> listReachableIPS = new ArrayList<>();
-        for (int i = 0; i <= 10; i++) {
-            InetAddress result = InetAddress.getByName(ipAddress + "." + i);
-            if (result.isReachable(3000)) {
-                listReachableIPS.add("Host address: " + result.getHostAddress() + " Host name: " + result.getHostName());
-
+    public static List<HostPrinter> sendPingRequest(String ipAddress) {
+        List<HostPrinter> listHostPrinter = new ArrayList<>();
+        try {
+            for (int i = 0; i <= 2; i++) {
+                InetAddress inetAddressResult = InetAddress.getByName(ipAddress + "." + i);
+                if (inetAddressResult.isReachable(3000)) {
+                    System.out.println("Printerc Controller : " + inetAddressResult.getHostAddress());
+                    HostPrinter hp = new HostPrinter(inetAddressResult.getHostAddress());
+                    hp.setHostName(inetAddressResult.getHostName());
+                    hp.setIpAddress(inetAddressResult.getHostAddress());
+                    listHostPrinter.add(hp);
+                }
             }
+        } catch (IOException e) {
+            System.out.println(e.getMessage());
         }
-        return listReachableIPS;
+
+        return listHostPrinter;
     }
 }

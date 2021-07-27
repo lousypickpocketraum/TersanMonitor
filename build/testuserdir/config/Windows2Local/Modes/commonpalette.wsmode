@@ -6,12 +6,12 @@
   <kind type="view" />
   <state type="joined"  />
   <constraints>
-    <path orientation="horizontal" number="60" weight="0.7"/>
+    <path orientation="horizontal" number="60" weight="0.7053509381514941"/>
     <path orientation="vertical" number="40" weight="0.7"/>
     <path orientation="horizontal" number="80" weight="0.3"/>
     <path orientation="vertical" number="40" weight="0.5"/>
   </constraints>
-  <bounds x="966" y="177" width="193" height="237" />
+  <bounds x="1206" y="245" width="241" height="327" />
   <frame state="0"/>
     <empty-behavior permanent="true"/>
 </mode>

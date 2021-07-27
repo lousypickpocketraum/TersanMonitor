@@ -1,6 +1,6 @@
 <record>
-  <date>2021-07-26T11:35:30</date>
-  <millis>1627288530548</millis>
+  <date>2021-07-27T14:16:56</date>
+  <millis>1627384616725</millis>
   <sequence>89</sequence>
   <level>300</level>
   <thread>13</thread>
@@ -8,27 +8,27 @@
   <param>1</param>
 </record>
 <record>
-  <date>2021-07-26T11:35:30</date>
-  <millis>1627288530604</millis>
+  <date>2021-07-27T14:16:56</date>
+  <millis>1627384616744</millis>
   <sequence>90</sequence>
   <level>300</level>
   <thread>13</thread>
   <message>SCREEN SIZE</message>
-  <param>1360</param>
-  <param>768</param>
+  <param>1680</param>
+  <param>1050</param>
   <param>1</param>
 </record>
 <record>
-  <date>2021-07-26T11:35:30</date>
-  <millis>1627288530606</millis>
+  <date>2021-07-27T14:16:56</date>
+  <millis>1627384616747</millis>
   <sequence>91</sequence>
   <level>700</level>
   <thread>13</thread>
   <message>IDE_STARTUP</message>
 </record>
 <record>
-  <date>2021-07-26T11:35:34</date>
-  <millis>1627288534044</millis>
+  <date>2021-07-27T14:16:58</date>
+  <millis>1627384618148</millis>
   <sequence>113</sequence>
   <logger>org.netbeans.ui.metrics.laf</logger>
   <level>800</level>
@@ -38,280 +38,65 @@
   <param>GTK look and feel</param>
 </record>
 <record>
-  <date>2021-07-26T11:35:41</date>
-  <millis>1627288541866</millis>
+  <date>2021-07-27T14:17:01</date>
+  <millis>1627384621752</millis>
   <sequence>117</sequence>
   <level>800</level>
-  <thread>12</thread>
+  <thread>30</thread>
   <message>MEMORY</message>
   <key>MEMORY</key>
   <catalog>&lt;null&gt;</catalog>
   <param>4127072256</param>
 </record>
 <record>
-  <date>2021-07-26T11:36:13</date>
-  <millis>1627288573409</millis>
-  <sequence>121</sequence>
-  <logger>global</logger>
-  <level>1000</level>
+  <date>2021-07-27T14:29:39</date>
+  <millis>1627385379877</millis>
+  <sequence>119</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
   <thread>19</thread>
-  <exception>
-    <message>java.lang.IndexOutOfBoundsException: Index: 6, Size: 6</message>
-    <frame>
-      <class>java.util.ArrayList</class>
-      <method>rangeCheck</method>
-      <line>659</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.util.ArrayList</class>
-      <method>get</method>
-      <line>435</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>com.trs.bt.windows.EditorMonitorTopComponent</class>
-      <method>btnTaraActionPerformed</method>
-      <line>163</line>
-      <file>${netBeansDir}build/cluster/modules/com-trs-bt.jar</file>
-    </frame>
-    <frame>
-      <class>com.trs.bt.windows.EditorMonitorTopComponent</class>
-      <method>access$000</method>
-      <line>44</line>
-      <file>${netBeansDir}build/cluster/modules/com-trs-bt.jar</file>
-    </frame>
-    <frame>
-      <class>com.trs.bt.windows.EditorMonitorTopComponent$1</class>
-      <method>actionPerformed</method>
-      <line>92</line>
-      <file>${netBeansDir}build/cluster/modules/com-trs-bt.jar</file>
-    </frame>
-    <frame>
-      <class>javax.swing.AbstractButton</class>
-      <method>fireActionPerformed</method>
-      <line>2022</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>javax.swing.AbstractButton$Handler</class>
-      <method>actionPerformed</method>
-      <line>2348</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>javax.swing.DefaultButtonModel</class>
-      <method>fireActionPerformed</method>
-      <line>402</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>javax.swing.DefaultButtonModel</class>
-      <method>setPressed</method>
-      <line>259</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>javax.swing.plaf.basic.BasicButtonListener</class>
-      <method>mouseReleased</method>
-      <line>252</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.Component</class>
-      <method>processMouseEvent</method>
-      <line>6539</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>javax.swing.JComponent</class>
-      <method>processMouseEvent</method>
-      <line>3324</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.Component</class>
-      <method>processEvent</method>
-      <line>6304</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.Container</class>
-      <method>processEvent</method>
-      <line>2239</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.Component</class>
-      <method>dispatchEventImpl</method>
-      <line>4889</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.Container</class>
-      <method>dispatchEventImpl</method>
-      <line>2297</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.Component</class>
-      <method>dispatchEvent</method>
-      <line>4711</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.LightweightDispatcher</class>
-      <method>retargetMouseEvent</method>
-      <line>4904</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.LightweightDispatcher</class>
-      <method>processMouseEvent</method>
-      <line>4535</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.LightweightDispatcher</class>
-      <method>dispatchEvent</method>
-      <line>4476</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.Container</class>
-      <method>dispatchEventImpl</method>
-      <line>2283</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.Window</class>
-      <method>dispatchEventImpl</method>
-      <line>2746</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.Component</class>
-      <method>dispatchEvent</method>
-      <line>4711</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventQueue</class>
-      <method>dispatchEventImpl</method>
-      <line>760</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventQueue</class>
-      <method>access$500</method>
-      <line>97</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventQueue$3</class>
-      <method>run</method>
-      <line>709</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventQueue$3</class>
-      <method>run</method>
-      <line>703</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.security.AccessController</class>
-      <method>doPrivileged</method>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.security.ProtectionDomain$JavaSecurityAccessImpl</class>
-      <method>doIntersectionPrivilege</method>
-      <line>74</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.security.ProtectionDomain$JavaSecurityAccessImpl</class>
-      <method>doIntersectionPrivilege</method>
-      <line>84</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventQueue$4</class>
-      <method>run</method>
-      <line>733</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventQueue$4</class>
-      <method>run</method>
-      <line>731</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.security.AccessController</class>
-      <method>doPrivileged</method>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.security.ProtectionDomain$JavaSecurityAccessImpl</class>
-      <method>doIntersectionPrivilege</method>
-      <line>74</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventQueue</class>
-      <method>dispatchEvent</method>
-      <line>730</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>org.netbeans.core.TimableEventQueue</class>
-      <method>dispatchEvent</method>
-      <line>136</line>
-      <file>${netbeans.home}modules/org-netbeans-core.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventDispatchThread</class>
-      <method>pumpOneEventForFilters</method>
-      <line>205</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventDispatchThread</class>
-      <method>pumpEventsForFilter</method>
-      <line>116</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventDispatchThread</class>
-      <method>pumpEventsForHierarchy</method>
-      <line>105</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventDispatchThread</class>
-      <method>pumpEvents</method>
-      <line>101</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventDispatchThread</class>
-      <method>pumpEvents</method>
-      <line>93</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventDispatchThread</class>
-      <method>run</method>
-      <line>82</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-  </exception>
+  <message>LOG_WINDOW_DEACTIVATED</message>
+  <key>LOG_WINDOW_DEACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
 </record>
 <record>
-  <date>2021-07-26T11:36:31</date>
-  <millis>1627288591296</millis>
+  <date>2021-07-27T14:30:10</date>
+  <millis>1627385410075</millis>
+  <sequence>120</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>19</thread>
+  <message>LOG_WINDOW_DEACTIVATED</message>
+  <key>LOG_WINDOW_DEACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+</record>
+<record>
+  <date>2021-07-27T14:30:10</date>
+  <millis>1627385410820</millis>
+  <sequence>121</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>58</thread>
+  <message>LOG_WINDOW_ACTIVATED</message>
+  <key>LOG_WINDOW_ACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+  <param>2</param>
+</record>
+<record>
+  <date>2021-07-27T14:31:46</date>
+  <millis>1627385506028</millis>
+  <sequence>122</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>61</thread>
+  <message>LOG_WINDOW_ACTIVATED</message>
+  <key>LOG_WINDOW_ACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+  <param>1</param>
+</record>
+<record>
+  <date>2021-07-27T14:32:07</date>
+  <millis>1627385527849</millis>
   <sequence>123</sequence>
   <logger>org.netbeans.ui.focus</logger>
   <level>500</level>
@@ -321,1299 +106,134 @@
   <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
 </record>
 <record>
-  <date>2021-07-26T11:37:20</date>
-  <millis>1627288640953</millis>
+  <date>2021-07-27T14:32:11</date>
+  <millis>1627385531158</millis>
   <sequence>124</sequence>
   <logger>org.netbeans.ui.focus</logger>
   <level>500</level>
-  <thread>29</thread>
-  <message>LOG_WINDOW_ACTIVATED</message>
-  <key>LOG_WINDOW_ACTIVATED</key>
+  <thread>19</thread>
+  <message>LOG_WINDOW_DEACTIVATED</message>
+  <key>LOG_WINDOW_DEACTIVATED</key>
   <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
-  <param>20</param>
 </record>
 <record>
-  <date>2021-07-26T11:37:24</date>
-  <millis>1627288644143</millis>
+  <date>2021-07-27T14:32:11</date>
+  <millis>1627385531198</millis>
   <sequence>125</sequence>
-  <logger>org.netbeans.ui.indexing</logger>
-  <level>800</level>
-  <thread>70</thread>
-  <message>INDEXING_STARTED</message>
-  <key>INDEXING_STARTED</key>
-  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>61</thread>
+  <message>LOG_WINDOW_ACTIVATED</message>
+  <key>LOG_WINDOW_ACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
   <param>0</param>
 </record>
 <record>
-  <date>2021-07-26T11:37:24</date>
-  <millis>1627288644176</millis>
+  <date>2021-07-27T14:34:39</date>
+  <millis>1627385679958</millis>
   <sequence>126</sequence>
-  <logger>org.netbeans.ui.indexing</logger>
-  <level>800</level>
-  <thread>70</thread>
-  <message>INDEXING_FINISHED</message>
-  <key>INDEXING_FINISHED</key>
-  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
-  <param>6</param>
-</record>
-<record>
-  <date>2021-07-26T11:37:24</date>
-  <millis>1627288644611</millis>
-  <sequence>130</sequence>
   <logger>org.netbeans.ui.focus</logger>
   <level>500</level>
-  <thread>19</thread>
-  <message>LOG_WINDOW_DEACTIVATED</message>
-  <key>LOG_WINDOW_DEACTIVATED</key>
-  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
-</record>
-<record>
-  <date>2021-07-26T11:37:48</date>
-  <millis>1627288668177</millis>
-  <sequence>89</sequence>
-  <level>300</level>
-  <thread>13</thread>
-  <message>CPU INFO</message>
-  <param>1</param>
-</record>
-<record>
-  <date>2021-07-26T11:37:48</date>
-  <millis>1627288668257</millis>
-  <sequence>90</sequence>
-  <level>300</level>
-  <thread>13</thread>
-  <message>SCREEN SIZE</message>
-  <param>1360</param>
-  <param>768</param>
-  <param>1</param>
-</record>
-<record>
-  <date>2021-07-26T11:37:48</date>
-  <millis>1627288668261</millis>
-  <sequence>91</sequence>
-  <level>700</level>
-  <thread>13</thread>
-  <message>IDE_STARTUP</message>
-</record>
-<record>
-  <date>2021-07-26T11:37:51</date>
-  <millis>1627288671637</millis>
-  <sequence>113</sequence>
-  <logger>org.netbeans.ui.metrics.laf</logger>
-  <level>800</level>
-  <thread>13</thread>
-  <message>USG_LOOK_AND_FEEL</message>
-  <param>GTK</param>
-  <param>GTK look and feel</param>
-</record>
-<record>
-  <date>2021-07-26T11:38:03</date>
-  <millis>1627288683241</millis>
-  <sequence>116</sequence>
-  <level>800</level>
-  <thread>30</thread>
-  <message>MEMORY</message>
-  <key>MEMORY</key>
-  <catalog>&lt;null&gt;</catalog>
-  <param>4127072256</param>
-</record>
-<record>
-  <date>2021-07-26T11:38:37</date>
-  <millis>1627288717624</millis>
-  <sequence>119</sequence>
-  <logger>org.netbeans.ui.performance</logger>
-  <level>700</level>
-  <thread>30</thread>
-  <message>Snapshot statistics</message>
-  <param>1627288690609</param>
-  <param>Samples</param>
-  <param>2627</param>
-  <param>Average</param>
-  <param>10.27512120669964</param>
-  <param>Minimum</param>
-  <param>0.447463</param>
-  <param>Maximum</param>
-  <param>37.39959</param>
-  <param>Std. deviation</param>
-  <param>1.6723738376374981</param>
-</record>
-<record>
-  <date>2021-07-26T11:38:37</date>
-  <millis>1627288717628</millis>
-  <sequence>120</sequence>
-  <logger>global</logger>
-  <level>1000</level>
-  <thread>19</thread>
-  <exception>
-    <message>java.lang.IndexOutOfBoundsException: Index: 6, Size: 6</message>
-    <frame>
-      <class>java.util.ArrayList</class>
-      <method>rangeCheck</method>
-      <line>659</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.util.ArrayList</class>
-      <method>get</method>
-      <line>435</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>com.trs.bt.windows.EditorMonitorTopComponent</class>
-      <method>btnTaraActionPerformed</method>
-      <line>161</line>
-      <file>${netBeansDir}build/cluster/modules/com-trs-bt.jar</file>
-    </frame>
-    <frame>
-      <class>com.trs.bt.windows.EditorMonitorTopComponent</class>
-      <method>access$000</method>
-      <line>44</line>
-      <file>${netBeansDir}build/cluster/modules/com-trs-bt.jar</file>
-    </frame>
-    <frame>
-      <class>com.trs.bt.windows.EditorMonitorTopComponent$1</class>
-      <method>actionPerformed</method>
-      <line>92</line>
-      <file>${netBeansDir}build/cluster/modules/com-trs-bt.jar</file>
-    </frame>
-    <frame>
-      <class>javax.swing.AbstractButton</class>
-      <method>fireActionPerformed</method>
-      <line>2022</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>javax.swing.AbstractButton$Handler</class>
-      <method>actionPerformed</method>
-      <line>2348</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>javax.swing.DefaultButtonModel</class>
-      <method>fireActionPerformed</method>
-      <line>402</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>javax.swing.DefaultButtonModel</class>
-      <method>setPressed</method>
-      <line>259</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>javax.swing.plaf.basic.BasicButtonListener</class>
-      <method>mouseReleased</method>
-      <line>252</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.Component</class>
-      <method>processMouseEvent</method>
-      <line>6539</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>javax.swing.JComponent</class>
-      <method>processMouseEvent</method>
-      <line>3324</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.Component</class>
-      <method>processEvent</method>
-      <line>6304</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.Container</class>
-      <method>processEvent</method>
-      <line>2239</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.Component</class>
-      <method>dispatchEventImpl</method>
-      <line>4889</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.Container</class>
-      <method>dispatchEventImpl</method>
-      <line>2297</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.Component</class>
-      <method>dispatchEvent</method>
-      <line>4711</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.LightweightDispatcher</class>
-      <method>retargetMouseEvent</method>
-      <line>4904</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.LightweightDispatcher</class>
-      <method>processMouseEvent</method>
-      <line>4535</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.LightweightDispatcher</class>
-      <method>dispatchEvent</method>
-      <line>4476</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.Container</class>
-      <method>dispatchEventImpl</method>
-      <line>2283</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.Window</class>
-      <method>dispatchEventImpl</method>
-      <line>2746</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.Component</class>
-      <method>dispatchEvent</method>
-      <line>4711</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventQueue</class>
-      <method>dispatchEventImpl</method>
-      <line>760</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventQueue</class>
-      <method>access$500</method>
-      <line>97</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventQueue$3</class>
-      <method>run</method>
-      <line>709</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventQueue$3</class>
-      <method>run</method>
-      <line>703</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.security.AccessController</class>
-      <method>doPrivileged</method>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.security.ProtectionDomain$JavaSecurityAccessImpl</class>
-      <method>doIntersectionPrivilege</method>
-      <line>74</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.security.ProtectionDomain$JavaSecurityAccessImpl</class>
-      <method>doIntersectionPrivilege</method>
-      <line>84</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventQueue$4</class>
-      <method>run</method>
-      <line>733</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventQueue$4</class>
-      <method>run</method>
-      <line>731</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.security.AccessController</class>
-      <method>doPrivileged</method>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.security.ProtectionDomain$JavaSecurityAccessImpl</class>
-      <method>doIntersectionPrivilege</method>
-      <line>74</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventQueue</class>
-      <method>dispatchEvent</method>
-      <line>730</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>org.netbeans.core.TimableEventQueue</class>
-      <method>dispatchEvent</method>
-      <line>136</line>
-      <file>${netbeans.home}modules/org-netbeans-core.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventDispatchThread</class>
-      <method>pumpOneEventForFilters</method>
-      <line>205</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventDispatchThread</class>
-      <method>pumpEventsForFilter</method>
-      <line>116</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventDispatchThread</class>
-      <method>pumpEventsForHierarchy</method>
-      <line>105</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventDispatchThread</class>
-      <method>pumpEvents</method>
-      <line>101</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventDispatchThread</class>
-      <method>pumpEvents</method>
-      <line>93</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventDispatchThread</class>
-      <method>run</method>
-      <line>82</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-  </exception>
-</record>
-<record>
-  <date>2021-07-26T11:39:07</date>
-  <millis>1627288747515</millis>
-  <sequence>141</sequence>
-  <logger>org.netbeans.ui.focus</logger>
-  <level>500</level>
-  <thread>19</thread>
-  <message>LOG_WINDOW_DEACTIVATED</message>
-  <key>LOG_WINDOW_DEACTIVATED</key>
-  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
-</record>
-<record>
-  <date>2021-07-26T11:39:24</date>
-  <millis>1627288764153</millis>
-  <sequence>142</sequence>
-  <logger>org.netbeans.ui.focus</logger>
-  <level>500</level>
-  <thread>30</thread>
+  <thread>63</thread>
   <message>LOG_WINDOW_ACTIVATED</message>
   <key>LOG_WINDOW_ACTIVATED</key>
   <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
-  <param>19</param>
+  <param>2</param>
 </record>
 <record>
-  <date>2021-07-26T11:39:26</date>
-  <millis>1627288766790</millis>
-  <sequence>143</sequence>
-  <logger>org.netbeans.ui.indexing</logger>
-  <level>800</level>
-  <thread>12</thread>
-  <message>INDEXING_STARTED</message>
-  <key>INDEXING_STARTED</key>
-  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
-  <param>0</param>
+  <date>2021-07-27T14:35:02</date>
+  <millis>1627385702720</millis>
+  <sequence>128</sequence>
+  <logger>org.netbeans.ui.performance</logger>
+  <level>700</level>
+  <thread>63</thread>
+  <message>Snapshot statistics</message>
+  <param>1627385695790</param>
+  <param>Samples</param>
+  <param>673</param>
+  <param>Average</param>
+  <param>10.267643854383353</param>
+  <param>Minimum</param>
+  <param>3.802372</param>
+  <param>Maximum</param>
+  <param>18.253723</param>
+  <param>Std. deviation</param>
+  <param>0.8556750456889228</param>
 </record>
 <record>
-  <date>2021-07-26T11:39:26</date>
-  <millis>1627288766817</millis>
+  <date>2021-07-27T14:35:10</date>
+  <millis>1627385710815</millis>
   <sequence>144</sequence>
-  <logger>org.netbeans.ui.indexing</logger>
-  <level>800</level>
-  <thread>12</thread>
-  <message>INDEXING_FINISHED</message>
-  <key>INDEXING_FINISHED</key>
-  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
-  <param>12</param>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>19</thread>
+  <message>LOG_WINDOW_DEACTIVATED</message>
+  <key>LOG_WINDOW_DEACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
 </record>
 <record>
-  <date>2021-07-26T11:39:27</date>
-  <millis>1627288767092</millis>
+  <date>2021-07-27T14:35:52</date>
+  <millis>1627385752334</millis>
+  <sequence>145</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>64</thread>
+  <message>LOG_WINDOW_ACTIVATED</message>
+  <key>LOG_WINDOW_ACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+  <param>0</param>
+</record>
+<record>
+  <date>2021-07-27T14:35:52</date>
+  <millis>1627385752796</millis>
+  <sequence>146</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>19</thread>
+  <message>LOG_WINDOW_DEACTIVATED</message>
+  <key>LOG_WINDOW_DEACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+</record>
+<record>
+  <date>2021-07-27T14:46:16</date>
+  <millis>1627386376515</millis>
+  <sequence>147</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>68</thread>
+  <message>LOG_WINDOW_ACTIVATED</message>
+  <key>LOG_WINDOW_ACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+  <param>3</param>
+</record>
+<record>
+  <date>2021-07-27T14:46:19</date>
+  <millis>1627386379133</millis>
   <sequence>148</sequence>
-  <logger>org.netbeans.ui.focus</logger>
-  <level>500</level>
-  <thread>19</thread>
-  <message>LOG_WINDOW_DEACTIVATED</message>
-  <key>LOG_WINDOW_DEACTIVATED</key>
-  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
-</record>
-<record>
-  <date>2021-07-26T11:41:31</date>
-  <millis>1627288891004</millis>
-  <sequence>89</sequence>
-  <level>300</level>
-  <thread>13</thread>
-  <message>CPU INFO</message>
-  <param>1</param>
-</record>
-<record>
-  <date>2021-07-26T11:41:31</date>
-  <millis>1627288891059</millis>
-  <sequence>90</sequence>
-  <level>300</level>
-  <thread>13</thread>
-  <message>SCREEN SIZE</message>
-  <param>1360</param>
-  <param>768</param>
-  <param>1</param>
-</record>
-<record>
-  <date>2021-07-26T11:41:31</date>
-  <millis>1627288891061</millis>
-  <sequence>91</sequence>
-  <level>700</level>
-  <thread>13</thread>
-  <message>IDE_STARTUP</message>
-</record>
-<record>
-  <date>2021-07-26T11:41:34</date>
-  <millis>1627288894596</millis>
-  <sequence>114</sequence>
-  <logger>org.netbeans.ui.metrics.laf</logger>
-  <level>800</level>
-  <thread>13</thread>
-  <message>USG_LOOK_AND_FEEL</message>
-  <param>GTK</param>
-  <param>GTK look and feel</param>
-</record>
-<record>
-  <date>2021-07-26T11:41:44</date>
-  <millis>1627288904575</millis>
-  <sequence>117</sequence>
-  <level>800</level>
-  <thread>12</thread>
-  <message>MEMORY</message>
-  <key>MEMORY</key>
-  <catalog>&lt;null&gt;</catalog>
-  <param>4127072256</param>
-</record>
-<record>
-  <date>2021-07-26T11:42:16</date>
-  <millis>1627288936443</millis>
-  <sequence>120</sequence>
-  <logger>org.netbeans.ui.performance</logger>
-  <level>700</level>
-  <thread>12</thread>
-  <message>Snapshot statistics</message>
-  <param>1627288909464</param>
-  <param>Samples</param>
-  <param>2596</param>
-  <param>Average</param>
-  <param>10.386337744221883</param>
-  <param>Minimum</param>
-  <param>0.486244</param>
-  <param>Maximum</param>
-  <param>254.843052</param>
-  <param>Std. deviation</param>
-  <param>5.16389197850637</param>
-</record>
-<record>
-  <date>2021-07-26T11:42:16</date>
-  <millis>1627288936451</millis>
-  <sequence>121</sequence>
-  <logger>global</logger>
-  <level>1000</level>
-  <thread>19</thread>
-  <exception>
-    <message>java.lang.IndexOutOfBoundsException: Index: 6, Size: 6</message>
-    <frame>
-      <class>java.util.ArrayList</class>
-      <method>rangeCheck</method>
-      <line>659</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.util.ArrayList</class>
-      <method>get</method>
-      <line>435</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>com.trs.bt.windows.EditorMonitorTopComponent</class>
-      <method>btnTaraActionPerformed</method>
-      <line>161</line>
-      <file>${netBeansDir}build/cluster/modules/com-trs-bt.jar</file>
-    </frame>
-    <frame>
-      <class>com.trs.bt.windows.EditorMonitorTopComponent</class>
-      <method>access$000</method>
-      <line>44</line>
-      <file>${netBeansDir}build/cluster/modules/com-trs-bt.jar</file>
-    </frame>
-    <frame>
-      <class>com.trs.bt.windows.EditorMonitorTopComponent$1</class>
-      <method>actionPerformed</method>
-      <line>92</line>
-      <file>${netBeansDir}build/cluster/modules/com-trs-bt.jar</file>
-    </frame>
-    <frame>
-      <class>javax.swing.AbstractButton</class>
-      <method>fireActionPerformed</method>
-      <line>2022</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>javax.swing.AbstractButton$Handler</class>
-      <method>actionPerformed</method>
-      <line>2348</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>javax.swing.DefaultButtonModel</class>
-      <method>fireActionPerformed</method>
-      <line>402</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>javax.swing.DefaultButtonModel</class>
-      <method>setPressed</method>
-      <line>259</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>javax.swing.plaf.basic.BasicButtonListener</class>
-      <method>mouseReleased</method>
-      <line>252</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.Component</class>
-      <method>processMouseEvent</method>
-      <line>6539</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>javax.swing.JComponent</class>
-      <method>processMouseEvent</method>
-      <line>3324</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.Component</class>
-      <method>processEvent</method>
-      <line>6304</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.Container</class>
-      <method>processEvent</method>
-      <line>2239</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.Component</class>
-      <method>dispatchEventImpl</method>
-      <line>4889</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.Container</class>
-      <method>dispatchEventImpl</method>
-      <line>2297</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.Component</class>
-      <method>dispatchEvent</method>
-      <line>4711</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.LightweightDispatcher</class>
-      <method>retargetMouseEvent</method>
-      <line>4904</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.LightweightDispatcher</class>
-      <method>processMouseEvent</method>
-      <line>4535</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.LightweightDispatcher</class>
-      <method>dispatchEvent</method>
-      <line>4476</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.Container</class>
-      <method>dispatchEventImpl</method>
-      <line>2283</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.Window</class>
-      <method>dispatchEventImpl</method>
-      <line>2746</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.Component</class>
-      <method>dispatchEvent</method>
-      <line>4711</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventQueue</class>
-      <method>dispatchEventImpl</method>
-      <line>760</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventQueue</class>
-      <method>access$500</method>
-      <line>97</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventQueue$3</class>
-      <method>run</method>
-      <line>709</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventQueue$3</class>
-      <method>run</method>
-      <line>703</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.security.AccessController</class>
-      <method>doPrivileged</method>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.security.ProtectionDomain$JavaSecurityAccessImpl</class>
-      <method>doIntersectionPrivilege</method>
-      <line>74</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.security.ProtectionDomain$JavaSecurityAccessImpl</class>
-      <method>doIntersectionPrivilege</method>
-      <line>84</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventQueue$4</class>
-      <method>run</method>
-      <line>733</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventQueue$4</class>
-      <method>run</method>
-      <line>731</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.security.AccessController</class>
-      <method>doPrivileged</method>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.security.ProtectionDomain$JavaSecurityAccessImpl</class>
-      <method>doIntersectionPrivilege</method>
-      <line>74</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventQueue</class>
-      <method>dispatchEvent</method>
-      <line>730</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>org.netbeans.core.TimableEventQueue</class>
-      <method>dispatchEvent</method>
-      <line>136</line>
-      <file>${netbeans.home}modules/org-netbeans-core.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventDispatchThread</class>
-      <method>pumpOneEventForFilters</method>
-      <line>205</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventDispatchThread</class>
-      <method>pumpEventsForFilter</method>
-      <line>116</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventDispatchThread</class>
-      <method>pumpEventsForHierarchy</method>
-      <line>105</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventDispatchThread</class>
-      <method>pumpEvents</method>
-      <line>101</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventDispatchThread</class>
-      <method>pumpEvents</method>
-      <line>93</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventDispatchThread</class>
-      <method>run</method>
-      <line>82</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-  </exception>
-</record>
-<record>
-  <date>2021-07-26T11:42:24</date>
-  <millis>1627288944587</millis>
-  <sequence>154</sequence>
-  <logger>org.netbeans.ui.focus</logger>
-  <level>500</level>
-  <thread>19</thread>
-  <message>LOG_WINDOW_DEACTIVATED</message>
-  <key>LOG_WINDOW_DEACTIVATED</key>
-  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
-</record>
-<record>
-  <date>2021-07-26T11:43:46</date>
-  <millis>1627289026780</millis>
-  <sequence>155</sequence>
-  <logger>org.netbeans.ui.focus</logger>
-  <level>500</level>
-  <thread>48</thread>
-  <message>LOG_WINDOW_ACTIVATED</message>
-  <key>LOG_WINDOW_ACTIVATED</key>
-  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
-  <param>9</param>
-</record>
-<record>
-  <date>2021-07-26T11:43:50</date>
-  <millis>1627289030736</millis>
-  <sequence>156</sequence>
   <logger>org.netbeans.ui.indexing</logger>
   <level>800</level>
-  <thread>58</thread>
+  <thread>78</thread>
   <message>INDEXING_STARTED</message>
   <key>INDEXING_STARTED</key>
   <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
   <param>0</param>
 </record>
 <record>
-  <date>2021-07-26T11:43:50</date>
-  <millis>1627289030785</millis>
-  <sequence>157</sequence>
+  <date>2021-07-27T14:46:19</date>
+  <millis>1627386379139</millis>
+  <sequence>149</sequence>
   <logger>org.netbeans.ui.indexing</logger>
   <level>800</level>
-  <thread>58</thread>
-  <message>INDEXING_FINISHED</message>
-  <key>INDEXING_FINISHED</key>
-  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
-  <param>24</param>
-</record>
-<record>
-  <date>2021-07-26T11:43:50</date>
-  <millis>1627289030973</millis>
-  <sequence>161</sequence>
-  <logger>org.netbeans.ui.focus</logger>
-  <level>500</level>
-  <thread>19</thread>
-  <message>LOG_WINDOW_DEACTIVATED</message>
-  <key>LOG_WINDOW_DEACTIVATED</key>
-  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
-</record>
-<record>
-  <date>2021-07-26T11:44:22</date>
-  <millis>1627289062600</millis>
-  <sequence>89</sequence>
-  <level>300</level>
-  <thread>13</thread>
-  <message>CPU INFO</message>
-  <param>1</param>
-</record>
-<record>
-  <date>2021-07-26T11:44:22</date>
-  <millis>1627289062667</millis>
-  <sequence>90</sequence>
-  <level>300</level>
-  <thread>13</thread>
-  <message>SCREEN SIZE</message>
-  <param>1360</param>
-  <param>768</param>
-  <param>1</param>
-</record>
-<record>
-  <date>2021-07-26T11:44:22</date>
-  <millis>1627289062670</millis>
-  <sequence>91</sequence>
-  <level>700</level>
-  <thread>13</thread>
-  <message>IDE_STARTUP</message>
-</record>
-<record>
-  <date>2021-07-26T11:44:26</date>
-  <millis>1627289066493</millis>
-  <sequence>114</sequence>
-  <logger>org.netbeans.ui.metrics.laf</logger>
-  <level>800</level>
-  <thread>13</thread>
-  <message>USG_LOOK_AND_FEEL</message>
-  <param>GTK</param>
-  <param>GTK look and feel</param>
-</record>
-<record>
-  <date>2021-07-26T11:44:36</date>
-  <millis>1627289076457</millis>
-  <sequence>117</sequence>
-  <level>800</level>
-  <thread>29</thread>
-  <message>MEMORY</message>
-  <key>MEMORY</key>
-  <catalog>&lt;null&gt;</catalog>
-  <param>4127072256</param>
-</record>
-<record>
-  <date>2021-07-26T11:44:39</date>
-  <millis>1627289079477</millis>
-  <sequence>119</sequence>
-  <logger>org.netbeans.ui.focus</logger>
-  <level>500</level>
-  <thread>19</thread>
-  <message>LOG_WINDOW_DEACTIVATED</message>
-  <key>LOG_WINDOW_DEACTIVATED</key>
-  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
-</record>
-<record>
-  <date>2021-07-26T11:44:45</date>
-  <millis>1627289085798</millis>
-  <sequence>120</sequence>
-  <logger>org.netbeans.ui.focus</logger>
-  <level>500</level>
-  <thread>29</thread>
-  <message>LOG_WINDOW_ACTIVATED</message>
-  <key>LOG_WINDOW_ACTIVATED</key>
-  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
-  <param>6</param>
-</record>
-<record>
-  <date>2021-07-26T11:45:16</date>
-  <millis>1627289116523</millis>
-  <sequence>122</sequence>
-  <logger>org.netbeans.ui.performance</logger>
-  <level>700</level>
-  <thread>29</thread>
-  <message>Snapshot statistics</message>
-  <param>1627289089572</param>
-  <param>Samples</param>
-  <param>2629</param>
-  <param>Average</param>
-  <param>10.242955340433646</param>
-  <param>Minimum</param>
-  <param>0.602886</param>
-  <param>Maximum</param>
-  <param>35.522228</param>
-  <param>Std. deviation</param>
-  <param>1.292389680999912</param>
-</record>
-<record>
-  <date>2021-07-26T11:45:16</date>
-  <millis>1627289116526</millis>
-  <sequence>123</sequence>
-  <logger>global</logger>
-  <level>1000</level>
-  <thread>19</thread>
-  <exception>
-    <message>java.lang.IndexOutOfBoundsException: Index: 6, Size: 6</message>
-    <frame>
-      <class>java.util.ArrayList</class>
-      <method>rangeCheck</method>
-      <line>659</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.util.ArrayList</class>
-      <method>get</method>
-      <line>435</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>com.trs.bt.windows.EditorMonitorTopComponent</class>
-      <method>btnTaraActionPerformed</method>
-      <line>161</line>
-      <file>${netBeansDir}build/cluster/modules/com-trs-bt.jar</file>
-    </frame>
-    <frame>
-      <class>com.trs.bt.windows.EditorMonitorTopComponent</class>
-      <method>access$000</method>
-      <line>44</line>
-      <file>${netBeansDir}build/cluster/modules/com-trs-bt.jar</file>
-    </frame>
-    <frame>
-      <class>com.trs.bt.windows.EditorMonitorTopComponent$1</class>
-      <method>actionPerformed</method>
-      <line>92</line>
-      <file>${netBeansDir}build/cluster/modules/com-trs-bt.jar</file>
-    </frame>
-    <frame>
-      <class>javax.swing.AbstractButton</class>
-      <method>fireActionPerformed</method>
-      <line>2022</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>javax.swing.AbstractButton$Handler</class>
-      <method>actionPerformed</method>
-      <line>2348</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>javax.swing.DefaultButtonModel</class>
-      <method>fireActionPerformed</method>
-      <line>402</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>javax.swing.DefaultButtonModel</class>
-      <method>setPressed</method>
-      <line>259</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>javax.swing.plaf.basic.BasicButtonListener</class>
-      <method>mouseReleased</method>
-      <line>252</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.Component</class>
-      <method>processMouseEvent</method>
-      <line>6539</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>javax.swing.JComponent</class>
-      <method>processMouseEvent</method>
-      <line>3324</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.Component</class>
-      <method>processEvent</method>
-      <line>6304</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.Container</class>
-      <method>processEvent</method>
-      <line>2239</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.Component</class>
-      <method>dispatchEventImpl</method>
-      <line>4889</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.Container</class>
-      <method>dispatchEventImpl</method>
-      <line>2297</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.Component</class>
-      <method>dispatchEvent</method>
-      <line>4711</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.LightweightDispatcher</class>
-      <method>retargetMouseEvent</method>
-      <line>4904</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.LightweightDispatcher</class>
-      <method>processMouseEvent</method>
-      <line>4535</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.LightweightDispatcher</class>
-      <method>dispatchEvent</method>
-      <line>4476</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.Container</class>
-      <method>dispatchEventImpl</method>
-      <line>2283</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.Window</class>
-      <method>dispatchEventImpl</method>
-      <line>2746</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.Component</class>
-      <method>dispatchEvent</method>
-      <line>4711</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventQueue</class>
-      <method>dispatchEventImpl</method>
-      <line>760</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventQueue</class>
-      <method>access$500</method>
-      <line>97</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventQueue$3</class>
-      <method>run</method>
-      <line>709</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventQueue$3</class>
-      <method>run</method>
-      <line>703</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.security.AccessController</class>
-      <method>doPrivileged</method>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.security.ProtectionDomain$JavaSecurityAccessImpl</class>
-      <method>doIntersectionPrivilege</method>
-      <line>74</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.security.ProtectionDomain$JavaSecurityAccessImpl</class>
-      <method>doIntersectionPrivilege</method>
-      <line>84</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventQueue$4</class>
-      <method>run</method>
-      <line>733</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventQueue$4</class>
-      <method>run</method>
-      <line>731</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.security.AccessController</class>
-      <method>doPrivileged</method>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.security.ProtectionDomain$JavaSecurityAccessImpl</class>
-      <method>doIntersectionPrivilege</method>
-      <line>74</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventQueue</class>
-      <method>dispatchEvent</method>
-      <line>730</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>org.netbeans.core.TimableEventQueue</class>
-      <method>dispatchEvent</method>
-      <line>136</line>
-      <file>${netbeans.home}modules/org-netbeans-core.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventDispatchThread</class>
-      <method>pumpOneEventForFilters</method>
-      <line>205</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventDispatchThread</class>
-      <method>pumpEventsForFilter</method>
-      <line>116</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventDispatchThread</class>
-      <method>pumpEventsForHierarchy</method>
-      <line>105</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventDispatchThread</class>
-      <method>pumpEvents</method>
-      <line>101</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventDispatchThread</class>
-      <method>pumpEvents</method>
-      <line>93</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventDispatchThread</class>
-      <method>run</method>
-      <line>82</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-  </exception>
-</record>
-<record>
-  <date>2021-07-26T11:45:32</date>
-  <millis>1627289132834</millis>
-  <sequence>217</sequence>
-  <logger>org.netbeans.ui.focus</logger>
-  <level>500</level>
-  <thread>19</thread>
-  <message>LOG_WINDOW_DEACTIVATED</message>
-  <key>LOG_WINDOW_DEACTIVATED</key>
-  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
-</record>
-<record>
-  <date>2021-07-26T11:45:47</date>
-  <millis>1627289147283</millis>
-  <sequence>218</sequence>
-  <logger>org.netbeans.ui.focus</logger>
-  <level>500</level>
-  <thread>29</thread>
-  <message>LOG_WINDOW_ACTIVATED</message>
-  <key>LOG_WINDOW_ACTIVATED</key>
-  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
-  <param>1</param>
-</record>
-<record>
-  <date>2021-07-26T11:46:22</date>
-  <millis>1627289182696</millis>
-  <sequence>219</sequence>
-  <logger>org.netbeans.ui.actions.editor</logger>
-  <level>500</level>
-  <thread>19</thread>
-  <message>UI_ACTION_EDITOR</message>
-  <key>UI_ACTION_EDITOR</key>
-  <catalog>&lt;null&gt;</catalog>
-  <param>java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Show Editor Toolbar,when=1627289182685,modifiers=] on org.netbeans.modules.editor.lib2.actions.PresenterUpdater$LazyJCheckBoxMenuItem[,2,83,385x27,invalid,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.synth.SynthBorder@16e0b47a,flags=256,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=0,left=0,bottom=0,right=0],paintBorder=false,paintFocus=false,pressedIcon=,rolloverEnabled=false,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=Show Editor Toolbar]</param>
-  <param>java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Show Editor Toolbar,when=1627289182685,modifiers=] on org.netbeans.modules.editor.lib2.actions.PresenterUpdater$LazyJCheckBoxMenuItem[,2,83,385x27,invalid,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.synth.SynthBorder@16e0b47a,flags=256,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=0,left=0,bottom=0,right=0],paintBorder=false,paintFocus=false,pressedIcon=,rolloverEnabled=false,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=Show Editor Toolbar]</param>
-  <param>org.netbeans.modules.editor.actions.ToggleAction[toggle-toolbar]</param>
-  <param>ToggleAction@1231111819 mime="null" name="toggle-toolbar"</param>
-  <param>toggle-toolbar</param>
-</record>
-<record>
-  <date>2021-07-26T11:46:26</date>
-  <millis>1627289186025</millis>
-  <sequence>220</sequence>
-  <logger>org.netbeans.ui.actions.editor</logger>
-  <level>500</level>
-  <thread>19</thread>
-  <message>UI_ACTION_EDITOR</message>
-  <key>UI_ACTION_EDITOR</key>
-  <catalog>&lt;null&gt;</catalog>
-  <param>java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Show Editor Toolbar,when=1627289186021,modifiers=] on org.netbeans.modules.editor.lib2.actions.PresenterUpdater$LazyJCheckBoxMenuItem[,2,83,385x27,invalid,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.synth.SynthBorder@16e0b47a,flags=256,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=0,left=0,bottom=0,right=0],paintBorder=false,paintFocus=false,pressedIcon=,rolloverEnabled=false,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=Show Editor Toolbar]</param>
-  <param>java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Show Editor Toolbar,when=1627289186021,modifiers=] on org.netbeans.modules.editor.lib2.actions.PresenterUpdater$LazyJCheckBoxMenuItem[,2,83,385x27,invalid,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.synth.SynthBorder@16e0b47a,flags=256,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=0,left=0,bottom=0,right=0],paintBorder=false,paintFocus=false,pressedIcon=,rolloverEnabled=false,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=Show Editor Toolbar]</param>
-  <param>org.netbeans.modules.editor.actions.ToggleAction[toggle-toolbar]</param>
-  <param>ToggleAction@1231111819 mime="null" name="toggle-toolbar"</param>
-  <param>toggle-toolbar</param>
-</record>
-<record>
-  <date>2021-07-26T11:46:36</date>
-  <millis>1627289196341</millis>
-  <sequence>221</sequence>
-  <logger>org.netbeans.ui.actions.editor</logger>
-  <level>500</level>
-  <thread>19</thread>
-  <message>UI_ACTION_EDITOR</message>
-  <key>UI_ACTION_EDITOR</key>
-  <catalog>&lt;null&gt;</catalog>
-  <param>java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Show Line Numbers,when=1627289196333,modifiers=] on org.netbeans.modules.editor.lib2.actions.PresenterUpdater$LazyJCheckBoxMenuItem[,2,110,385x27,invalid,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.synth.SynthBorder@2f16939,flags=256,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=0,left=0,bottom=0,right=0],paintBorder=false,paintFocus=false,pressedIcon=,rolloverEnabled=false,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=Show Line Numbers]</param>
-  <param>java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Show Line Numbers,when=1627289196333,modifiers=] on org.netbeans.modules.editor.lib2.actions.PresenterUpdater$LazyJCheckBoxMenuItem[,2,110,385x27,invalid,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.synth.SynthBorder@2f16939,flags=256,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=0,left=0,bottom=0,right=0],paintBorder=false,paintFocus=false,pressedIcon=,rolloverEnabled=false,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=Show Line Numbers]</param>
-  <param>org.netbeans.modules.editor.actions.ToggleAction[toggle-line-numbers]</param>
-  <param>ToggleAction@153875197 mime="null" name="toggle-line-numbers"</param>
-  <param>toggle-line-numbers</param>
-</record>
-<record>
-  <date>2021-07-26T11:46:38</date>
-  <millis>1627289198192</millis>
-  <sequence>222</sequence>
-  <logger>org.netbeans.ui.actions.editor</logger>
-  <level>500</level>
-  <thread>19</thread>
-  <message>UI_ACTION_EDITOR</message>
-  <key>UI_ACTION_EDITOR</key>
-  <catalog>&lt;null&gt;</catalog>
-  <param>java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Show Editor Toolbar,when=1627289198189,modifiers=] on org.netbeans.modules.editor.lib2.actions.PresenterUpdater$LazyJCheckBoxMenuItem[,2,83,385x27,invalid,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.synth.SynthBorder@16e0b47a,flags=256,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=0,left=0,bottom=0,right=0],paintBorder=false,paintFocus=false,pressedIcon=,rolloverEnabled=false,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=Show Editor Toolbar]</param>
-  <param>java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Show Editor Toolbar,when=1627289198189,modifiers=] on org.netbeans.modules.editor.lib2.actions.PresenterUpdater$LazyJCheckBoxMenuItem[,2,83,385x27,invalid,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.synth.SynthBorder@16e0b47a,flags=256,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=0,left=0,bottom=0,right=0],paintBorder=false,paintFocus=false,pressedIcon=,rolloverEnabled=false,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=Show Editor Toolbar]</param>
-  <param>org.netbeans.modules.editor.actions.ToggleAction[toggle-toolbar]</param>
-  <param>ToggleAction@1231111819 mime="null" name="toggle-toolbar"</param>
-  <param>toggle-toolbar</param>
-</record>
-<record>
-  <date>2021-07-26T11:47:03</date>
-  <millis>1627289223322</millis>
-  <sequence>223</sequence>
-  <logger>org.netbeans.ui.indexing</logger>
-  <level>800</level>
-  <thread>63</thread>
-  <message>INDEXING_STARTED</message>
-  <key>INDEXING_STARTED</key>
-  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
-  <param>0</param>
-</record>
-<record>
-  <date>2021-07-26T11:47:03</date>
-  <millis>1627289223379</millis>
-  <sequence>224</sequence>
-  <logger>org.netbeans.ui.indexing</logger>
-  <level>800</level>
-  <thread>63</thread>
+  <thread>78</thread>
   <message>INDEXING_FINISHED</message>
   <key>INDEXING_FINISHED</key>
   <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
   <param>2</param>
 </record>
 <record>
-  <date>2021-07-26T11:47:03</date>
-  <millis>1627289223552</millis>
-  <sequence>228</sequence>
+  <date>2021-07-27T14:46:19</date>
+  <millis>1627386379189</millis>
+  <sequence>153</sequence>
   <logger>org.netbeans.ui.focus</logger>
   <level>500</level>
   <thread>19</thread>
@@ -1622,8 +242,8 @@
   <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
 </record>
 <record>
-  <date>2021-07-26T11:47:25</date>
-  <millis>1627289245173</millis>
+  <date>2021-07-27T14:46:28</date>
+  <millis>1627386388671</millis>
   <sequence>89</sequence>
   <level>300</level>
   <thread>13</thread>
@@ -1631,28 +251,28 @@
   <param>1</param>
 </record>
 <record>
-  <date>2021-07-26T11:47:25</date>
-  <millis>1627289245235</millis>
+  <date>2021-07-27T14:46:28</date>
+  <millis>1627386388695</millis>
   <sequence>90</sequence>
   <level>300</level>
   <thread>13</thread>
   <message>SCREEN SIZE</message>
-  <param>1360</param>
-  <param>768</param>
+  <param>1680</param>
+  <param>1050</param>
   <param>1</param>
 </record>
 <record>
-  <date>2021-07-26T11:47:25</date>
-  <millis>1627289245243</millis>
+  <date>2021-07-27T14:46:28</date>
+  <millis>1627386388696</millis>
   <sequence>91</sequence>
   <level>700</level>
   <thread>13</thread>
   <message>IDE_STARTUP</message>
 </record>
 <record>
-  <date>2021-07-26T11:47:28</date>
-  <millis>1627289248968</millis>
-  <sequence>114</sequence>
+  <date>2021-07-27T14:46:30</date>
+  <millis>1627386390119</millis>
+  <sequence>113</sequence>
   <logger>org.netbeans.ui.metrics.laf</logger>
   <level>800</level>
   <thread>13</thread>
@@ -1661,20 +281,20 @@
   <param>GTK look and feel</param>
 </record>
 <record>
-  <date>2021-07-26T11:47:36</date>
-  <millis>1627289256937</millis>
-  <sequence>117</sequence>
+  <date>2021-07-27T14:46:34</date>
+  <millis>1627386394568</millis>
+  <sequence>116</sequence>
   <level>800</level>
-  <thread>12</thread>
+  <thread>26</thread>
   <message>MEMORY</message>
   <key>MEMORY</key>
   <catalog>&lt;null&gt;</catalog>
   <param>4127072256</param>
 </record>
 <record>
-  <date>2021-07-26T11:48:05</date>
-  <millis>1627289285841</millis>
-  <sequence>122</sequence>
+  <date>2021-07-27T14:46:43</date>
+  <millis>1627386403048</millis>
+  <sequence>118</sequence>
   <logger>org.netbeans.ui.focus</logger>
   <level>500</level>
   <thread>19</thread>
@@ -1683,302 +303,65 @@
   <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
 </record>
 <record>
-  <date>2021-07-26T11:48:23</date>
-  <millis>1627289303640</millis>
-  <sequence>123</sequence>
+  <date>2021-07-27T14:46:50</date>
+  <millis>1627386410622</millis>
+  <sequence>119</sequence>
   <logger>org.netbeans.ui.focus</logger>
   <level>500</level>
-  <thread>32</thread>
+  <thread>26</thread>
   <message>LOG_WINDOW_ACTIVATED</message>
   <key>LOG_WINDOW_ACTIVATED</key>
   <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
   <param>5</param>
 </record>
 <record>
-  <date>2021-07-26T11:48:57</date>
-  <millis>1627289337881</millis>
-  <sequence>125</sequence>
+  <date>2021-07-27T14:46:57</date>
+  <millis>1627386417699</millis>
+  <sequence>121</sequence>
   <logger>org.netbeans.ui.performance</logger>
   <level>700</level>
-  <thread>32</thread>
+  <thread>26</thread>
   <message>Snapshot statistics</message>
-  <param>1627289310891</param>
+  <param>1627386410773</param>
   <param>Samples</param>
-  <param>2624</param>
+  <param>668</param>
   <param>Average</param>
-  <param>10.281376081554871</param>
+  <param>10.338755790419148</param>
   <param>Minimum</param>
-  <param>0.450115</param>
+  <param>3.72486</param>
   <param>Maximum</param>
-  <param>27.514612</param>
+  <param>32.292932</param>
   <param>Std. deviation</param>
-  <param>1.1004999176781556</param>
+  <param>1.5708285910728175</param>
 </record>
 <record>
-  <date>2021-07-26T11:48:57</date>
-  <millis>1627289337885</millis>
-  <sequence>126</sequence>
-  <logger>global</logger>
-  <level>1000</level>
-  <thread>19</thread>
-  <exception>
-    <message>java.lang.IndexOutOfBoundsException: Index: 6, Size: 6</message>
-    <frame>
-      <class>java.util.ArrayList</class>
-      <method>rangeCheck</method>
-      <line>659</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.util.ArrayList</class>
-      <method>get</method>
-      <line>435</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>com.trs.bt.windows.EditorMonitorTopComponent</class>
-      <method>btnTaraActionPerformed</method>
-      <line>161</line>
-      <file>${netBeansDir}build/cluster/modules/com-trs-bt.jar</file>
-    </frame>
-    <frame>
-      <class>com.trs.bt.windows.EditorMonitorTopComponent</class>
-      <method>access$000</method>
-      <line>44</line>
-      <file>${netBeansDir}build/cluster/modules/com-trs-bt.jar</file>
-    </frame>
-    <frame>
-      <class>com.trs.bt.windows.EditorMonitorTopComponent$1</class>
-      <method>actionPerformed</method>
-      <line>92</line>
-      <file>${netBeansDir}build/cluster/modules/com-trs-bt.jar</file>
-    </frame>
-    <frame>
-      <class>javax.swing.AbstractButton</class>
-      <method>fireActionPerformed</method>
-      <line>2022</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>javax.swing.AbstractButton$Handler</class>
-      <method>actionPerformed</method>
-      <line>2348</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>javax.swing.DefaultButtonModel</class>
-      <method>fireActionPerformed</method>
-      <line>402</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>javax.swing.DefaultButtonModel</class>
-      <method>setPressed</method>
-      <line>259</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>javax.swing.plaf.basic.BasicButtonListener</class>
-      <method>mouseReleased</method>
-      <line>252</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.Component</class>
-      <method>processMouseEvent</method>
-      <line>6539</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>javax.swing.JComponent</class>
-      <method>processMouseEvent</method>
-      <line>3324</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.Component</class>
-      <method>processEvent</method>
-      <line>6304</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.Container</class>
-      <method>processEvent</method>
-      <line>2239</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.Component</class>
-      <method>dispatchEventImpl</method>
-      <line>4889</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.Container</class>
-      <method>dispatchEventImpl</method>
-      <line>2297</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.Component</class>
-      <method>dispatchEvent</method>
-      <line>4711</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.LightweightDispatcher</class>
-      <method>retargetMouseEvent</method>
-      <line>4904</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.LightweightDispatcher</class>
-      <method>processMouseEvent</method>
-      <line>4535</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.LightweightDispatcher</class>
-      <method>dispatchEvent</method>
-      <line>4476</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.Container</class>
-      <method>dispatchEventImpl</method>
-      <line>2283</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.Window</class>
-      <method>dispatchEventImpl</method>
-      <line>2746</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.Component</class>
-      <method>dispatchEvent</method>
-      <line>4711</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventQueue</class>
-      <method>dispatchEventImpl</method>
-      <line>760</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventQueue</class>
-      <method>access$500</method>
-      <line>97</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventQueue$3</class>
-      <method>run</method>
-      <line>709</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventQueue$3</class>
-      <method>run</method>
-      <line>703</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.security.AccessController</class>
-      <method>doPrivileged</method>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.security.ProtectionDomain$JavaSecurityAccessImpl</class>
-      <method>doIntersectionPrivilege</method>
-      <line>74</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.security.ProtectionDomain$JavaSecurityAccessImpl</class>
-      <method>doIntersectionPrivilege</method>
-      <line>84</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventQueue$4</class>
-      <method>run</method>
-      <line>733</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventQueue$4</class>
-      <method>run</method>
-      <line>731</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.security.AccessController</class>
-      <method>doPrivileged</method>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.security.ProtectionDomain$JavaSecurityAccessImpl</class>
-      <method>doIntersectionPrivilege</method>
-      <line>74</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventQueue</class>
-      <method>dispatchEvent</method>
-      <line>730</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>org.netbeans.core.TimableEventQueue</class>
-      <method>dispatchEvent</method>
-      <line>136</line>
-      <file>${netbeans.home}modules/org-netbeans-core.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventDispatchThread</class>
-      <method>pumpOneEventForFilters</method>
-      <line>205</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventDispatchThread</class>
-      <method>pumpEventsForFilter</method>
-      <line>116</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventDispatchThread</class>
-      <method>pumpEventsForHierarchy</method>
-      <line>105</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventDispatchThread</class>
-      <method>pumpEvents</method>
-      <line>101</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventDispatchThread</class>
-      <method>pumpEvents</method>
-      <line>93</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventDispatchThread</class>
-      <method>run</method>
-      <line>82</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-  </exception>
+  <date>2021-07-27T14:47:15</date>
+  <millis>1627386435050</millis>
+  <sequence>152</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>28</thread>
+  <message>INDEXING_STARTED</message>
+  <key>INDEXING_STARTED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>0</param>
 </record>
 <record>
-  <date>2021-07-26T11:48:57</date>
-  <millis>1627289337908</millis>
-  <sequence>127</sequence>
+  <date>2021-07-27T14:47:15</date>
+  <millis>1627386435051</millis>
+  <sequence>153</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>28</thread>
+  <message>INDEXING_FINISHED</message>
+  <key>INDEXING_FINISHED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>1</param>
+</record>
+<record>
+  <date>2021-07-27T14:47:15</date>
+  <millis>1627386435113</millis>
+  <sequence>157</sequence>
   <logger>org.netbeans.ui.focus</logger>
   <level>500</level>
   <thread>19</thread>
@@ -1987,8 +370,101 @@
   <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
 </record>
 <record>
-  <date>2021-07-26T11:48:57</date>
-  <millis>1627289337915</millis>
+  <date>2021-07-27T14:51:06</date>
+  <millis>1627386666487</millis>
+  <sequence>95</sequence>
+  <level>300</level>
+  <thread>13</thread>
+  <message>CPU INFO</message>
+  <param>1</param>
+</record>
+<record>
+  <date>2021-07-27T14:51:06</date>
+  <millis>1627386666507</millis>
+  <sequence>96</sequence>
+  <level>300</level>
+  <thread>13</thread>
+  <message>SCREEN SIZE</message>
+  <param>1680</param>
+  <param>1050</param>
+  <param>1</param>
+</record>
+<record>
+  <date>2021-07-27T14:51:06</date>
+  <millis>1627386666508</millis>
+  <sequence>97</sequence>
+  <level>700</level>
+  <thread>13</thread>
+  <message>IDE_STARTUP</message>
+</record>
+<record>
+  <date>2021-07-27T14:51:08</date>
+  <millis>1627386668250</millis>
+  <sequence>119</sequence>
+  <logger>org.netbeans.ui.metrics.laf</logger>
+  <level>800</level>
+  <thread>13</thread>
+  <message>USG_LOOK_AND_FEEL</message>
+  <param>GTK</param>
+  <param>GTK look and feel</param>
+</record>
+<record>
+  <date>2021-07-27T14:51:12</date>
+  <millis>1627386672903</millis>
+  <sequence>122</sequence>
+  <level>800</level>
+  <thread>31</thread>
+  <message>MEMORY</message>
+  <key>MEMORY</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>4127072256</param>
+</record>
+<record>
+  <date>2021-07-27T14:51:14</date>
+  <millis>1627386674279</millis>
+  <sequence>124</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>19</thread>
+  <message>LOG_WINDOW_DEACTIVATED</message>
+  <key>LOG_WINDOW_DEACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+</record>
+<record>
+  <date>2021-07-27T14:51:19</date>
+  <millis>1627386679552</millis>
+  <sequence>125</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>29</thread>
+  <message>LOG_WINDOW_ACTIVATED</message>
+  <key>LOG_WINDOW_ACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+  <param>3</param>
+</record>
+<record>
+  <date>2021-07-27T14:51:31</date>
+  <millis>1627386691084</millis>
+  <sequence>127</sequence>
+  <logger>org.netbeans.ui.performance</logger>
+  <level>700</level>
+  <thread>29</thread>
+  <message>Snapshot statistics</message>
+  <param>1627386684167</param>
+  <param>Samples</param>
+  <param>666</param>
+  <param>Average</param>
+  <param>10.344236866366359</param>
+  <param>Minimum</param>
+  <param>0.718252</param>
+  <param>Maximum</param>
+  <param>28.343713</param>
+  <param>Std. deviation</param>
+  <param>1.5949153965982992</param>
+</record>
+<record>
+  <date>2021-07-27T14:51:31</date>
+  <millis>1627386691095</millis>
   <sequence>128</sequence>
   <logger>org.netbeans.ui.focus</logger>
   <level>500</level>
@@ -1998,33 +474,21 @@
   <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
 </record>
 <record>
-  <date>2021-07-26T11:48:59</date>
-  <millis>1627289339422</millis>
-  <sequence>194</sequence>
+  <date>2021-07-27T14:51:32</date>
+  <millis>1627386692600</millis>
+  <sequence>171</sequence>
   <logger>org.netbeans.ui.focus</logger>
   <level>500</level>
-  <thread>52</thread>
+  <thread>29</thread>
   <message>LOG_WINDOW_ACTIVATED</message>
   <key>LOG_WINDOW_ACTIVATED</key>
   <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
-  <param>3</param>
+  <param>1</param>
 </record>
 <record>
-  <date>2021-07-26T11:49:32</date>
-  <millis>1627289372526</millis>
-  <sequence>196</sequence>
-  <logger>org.netbeans.ui.focus</logger>
-  <level>500</level>
-  <thread>52</thread>
-  <message>LOG_WINDOW_ACTIVATED</message>
-  <key>LOG_WINDOW_ACTIVATED</key>
-  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
-  <param>4</param>
-</record>
-<record>
-  <date>2021-07-26T11:49:34</date>
-  <millis>1627289374917</millis>
-  <sequence>197</sequence>
+  <date>2021-07-27T14:51:33</date>
+  <millis>1627386693918</millis>
+  <sequence>172</sequence>
   <logger>org.netbeans.ui.focus</logger>
   <level>500</level>
   <thread>19</thread>
@@ -2033,68 +497,45 @@
   <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
 </record>
 <record>
-  <date>2021-07-26T11:49:49</date>
-  <millis>1627289389270</millis>
-  <sequence>198</sequence>
+  <date>2021-07-27T14:54:11</date>
+  <millis>1627386851710</millis>
+  <sequence>173</sequence>
   <logger>org.netbeans.ui.focus</logger>
   <level>500</level>
-  <thread>52</thread>
+  <thread>49</thread>
   <message>LOG_WINDOW_ACTIVATED</message>
   <key>LOG_WINDOW_ACTIVATED</key>
   <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
   <param>3</param>
 </record>
 <record>
-  <date>2021-07-26T11:50:04</date>
-  <millis>1627289404490</millis>
-  <sequence>199</sequence>
-  <logger>org.netbeans.ui.focus</logger>
-  <level>500</level>
-  <thread>19</thread>
-  <message>LOG_WINDOW_DEACTIVATED</message>
-  <key>LOG_WINDOW_DEACTIVATED</key>
-  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
-</record>
-<record>
-  <date>2021-07-26T11:56:03</date>
-  <millis>1627289763482</millis>
-  <sequence>200</sequence>
-  <logger>org.netbeans.ui.focus</logger>
-  <level>500</level>
-  <thread>54</thread>
-  <message>LOG_WINDOW_ACTIVATED</message>
-  <key>LOG_WINDOW_ACTIVATED</key>
-  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
-  <param>2</param>
-</record>
-<record>
-  <date>2021-07-26T11:56:07</date>
-  <millis>1627289767554</millis>
-  <sequence>201</sequence>
+  <date>2021-07-27T14:54:13</date>
+  <millis>1627386853477</millis>
+  <sequence>174</sequence>
   <logger>org.netbeans.ui.indexing</logger>
   <level>800</level>
-  <thread>65</thread>
+  <thread>60</thread>
   <message>INDEXING_STARTED</message>
   <key>INDEXING_STARTED</key>
   <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
   <param>0</param>
 </record>
 <record>
-  <date>2021-07-26T11:56:07</date>
-  <millis>1627289767569</millis>
-  <sequence>202</sequence>
+  <date>2021-07-27T14:54:13</date>
+  <millis>1627386853488</millis>
+  <sequence>175</sequence>
   <logger>org.netbeans.ui.indexing</logger>
   <level>800</level>
-  <thread>65</thread>
+  <thread>60</thread>
   <message>INDEXING_FINISHED</message>
   <key>INDEXING_FINISHED</key>
   <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
-  <param>12</param>
+  <param>7</param>
 </record>
 <record>
-  <date>2021-07-26T11:56:07</date>
-  <millis>1627289767859</millis>
-  <sequence>206</sequence>
+  <date>2021-07-27T14:54:13</date>
+  <millis>1627386853530</millis>
+  <sequence>179</sequence>
   <logger>org.netbeans.ui.focus</logger>
   <level>500</level>
   <thread>19</thread>
@@ -2103,37 +544,110 @@
   <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
 </record>
 <record>
-  <date>2021-07-26T11:56:43</date>
-  <millis>1627289803215</millis>
-  <sequence>89</sequence>
+  <date>2021-07-27T14:54:39</date>
+  <millis>1627386879524</millis>
+  <sequence>95</sequence>
+  <level>300</level>
+  <thread>16</thread>
+  <message>CPU INFO</message>
+  <param>1</param>
+</record>
+<record>
+  <date>2021-07-27T14:54:39</date>
+  <millis>1627386879544</millis>
+  <sequence>96</sequence>
+  <level>300</level>
+  <thread>16</thread>
+  <message>SCREEN SIZE</message>
+  <param>1680</param>
+  <param>1050</param>
+  <param>1</param>
+</record>
+<record>
+  <date>2021-07-27T14:54:39</date>
+  <millis>1627386879545</millis>
+  <sequence>97</sequence>
+  <level>700</level>
+  <thread>16</thread>
+  <message>IDE_STARTUP</message>
+</record>
+<record>
+  <date>2021-07-27T14:54:41</date>
+  <millis>1627386881427</millis>
+  <sequence>119</sequence>
+  <logger>org.netbeans.ui.metrics.laf</logger>
+  <level>800</level>
+  <thread>16</thread>
+  <message>USG_LOOK_AND_FEEL</message>
+  <param>GTK</param>
+  <param>GTK look and feel</param>
+</record>
+<record>
+  <date>2021-07-27T14:54:46</date>
+  <millis>1627386886151</millis>
+  <sequence>122</sequence>
+  <level>800</level>
+  <thread>31</thread>
+  <message>MEMORY</message>
+  <key>MEMORY</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>4127072256</param>
+</record>
+<record>
+  <date>2021-07-27T14:54:48</date>
+  <millis>1627386888603</millis>
+  <sequence>124</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>22</thread>
+  <message>LOG_WINDOW_DEACTIVATED</message>
+  <key>LOG_WINDOW_DEACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+</record>
+<record>
+  <date>2021-07-27T14:54:59</date>
+  <millis>1627386899050</millis>
+  <sequence>126</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>31</thread>
+  <message>LOG_WINDOW_ACTIVATED</message>
+  <key>LOG_WINDOW_ACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+  <param>15</param>
+</record>
+<record>
+  <date>2021-07-27T15:11:52</date>
+  <millis>1627387912765</millis>
+  <sequence>95</sequence>
   <level>300</level>
   <thread>13</thread>
   <message>CPU INFO</message>
   <param>1</param>
 </record>
 <record>
-  <date>2021-07-26T11:56:43</date>
-  <millis>1627289803267</millis>
-  <sequence>90</sequence>
+  <date>2021-07-27T15:11:52</date>
+  <millis>1627387912811</millis>
+  <sequence>96</sequence>
   <level>300</level>
   <thread>13</thread>
   <message>SCREEN SIZE</message>
-  <param>1360</param>
-  <param>768</param>
+  <param>1680</param>
+  <param>1050</param>
   <param>1</param>
 </record>
 <record>
-  <date>2021-07-26T11:56:43</date>
-  <millis>1627289803271</millis>
-  <sequence>91</sequence>
+  <date>2021-07-27T15:11:52</date>
+  <millis>1627387912812</millis>
+  <sequence>97</sequence>
   <level>700</level>
   <thread>13</thread>
   <message>IDE_STARTUP</message>
 </record>
 <record>
-  <date>2021-07-26T11:56:46</date>
-  <millis>1627289806614</millis>
-  <sequence>113</sequence>
+  <date>2021-07-27T15:11:55</date>
+  <millis>1627387915136</millis>
+  <sequence>119</sequence>
   <logger>org.netbeans.ui.metrics.laf</logger>
   <level>800</level>
   <thread>13</thread>
@@ -2142,44 +656,435 @@
   <param>GTK look and feel</param>
 </record>
 <record>
-  <date>2021-07-26T11:56:55</date>
-  <millis>1627289815407</millis>
-  <sequence>116</sequence>
+  <date>2021-07-27T15:11:59</date>
+  <millis>1627387919252</millis>
+  <sequence>122</sequence>
   <level>800</level>
-  <thread>12</thread>
+  <thread>31</thread>
   <message>MEMORY</message>
   <key>MEMORY</key>
   <catalog>&lt;null&gt;</catalog>
   <param>4127072256</param>
 </record>
 <record>
-  <date>2021-07-26T11:57:13</date>
-  <millis>1627289833373</millis>
-  <sequence>118</sequence>
+  <date>2021-07-27T15:12:01</date>
+  <millis>1627387921412</millis>
+  <sequence>124</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>19</thread>
+  <message>LOG_WINDOW_DEACTIVATED</message>
+  <key>LOG_WINDOW_DEACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+</record>
+<record>
+  <date>2021-07-27T15:12:05</date>
+  <millis>1627387925531</millis>
+  <sequence>125</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>31</thread>
+  <message>LOG_WINDOW_ACTIVATED</message>
+  <key>LOG_WINDOW_ACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+  <param>10</param>
+</record>
+<record>
+  <date>2021-07-27T15:12:36</date>
+  <millis>1627387956219</millis>
+  <sequence>126</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>19</thread>
+  <message>LOG_WINDOW_DEACTIVATED</message>
+  <key>LOG_WINDOW_DEACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+</record>
+<record>
+  <date>2021-07-27T15:13:00</date>
+  <millis>1627387980756</millis>
+  <sequence>127</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>31</thread>
+  <message>LOG_WINDOW_ACTIVATED</message>
+  <key>LOG_WINDOW_ACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+  <param>1</param>
+</record>
+<record>
+  <date>2021-07-27T15:13:02</date>
+  <millis>1627387982938</millis>
+  <sequence>128</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>19</thread>
+  <message>LOG_WINDOW_DEACTIVATED</message>
+  <key>LOG_WINDOW_DEACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+</record>
+<record>
+  <date>2021-07-27T15:16:21</date>
+  <millis>1627388181561</millis>
+  <sequence>129</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>49</thread>
+  <message>LOG_WINDOW_ACTIVATED</message>
+  <key>LOG_WINDOW_ACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+  <param>1</param>
+</record>
+<record>
+  <date>2021-07-27T15:16:22</date>
+  <millis>1627388182747</millis>
+  <sequence>130</sequence>
   <logger>org.netbeans.ui.indexing</logger>
   <level>800</level>
-  <thread>33</thread>
+  <thread>53</thread>
   <message>INDEXING_STARTED</message>
   <key>INDEXING_STARTED</key>
   <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
   <param>0</param>
 </record>
 <record>
-  <date>2021-07-26T11:57:13</date>
-  <millis>1627289833403</millis>
-  <sequence>119</sequence>
+  <date>2021-07-27T15:16:22</date>
+  <millis>1627388182793</millis>
+  <sequence>131</sequence>
   <logger>org.netbeans.ui.indexing</logger>
   <level>800</level>
-  <thread>33</thread>
+  <thread>53</thread>
   <message>INDEXING_FINISHED</message>
   <key>INDEXING_FINISHED</key>
   <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
-  <param>6</param>
+  <param>1</param>
 </record>
 <record>
-  <date>2021-07-26T11:57:13</date>
-  <millis>1627289833661</millis>
-  <sequence>123</sequence>
+  <date>2021-07-27T15:16:22</date>
+  <millis>1627388182863</millis>
+  <sequence>136</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>19</thread>
+  <message>LOG_WINDOW_DEACTIVATED</message>
+  <key>LOG_WINDOW_DEACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+</record>
+<record>
+  <date>2021-07-27T15:16:32</date>
+  <millis>1627388192748</millis>
+  <sequence>95</sequence>
+  <level>300</level>
+  <thread>13</thread>
+  <message>CPU INFO</message>
+  <param>1</param>
+</record>
+<record>
+  <date>2021-07-27T15:16:32</date>
+  <millis>1627388192770</millis>
+  <sequence>96</sequence>
+  <level>300</level>
+  <thread>13</thread>
+  <message>SCREEN SIZE</message>
+  <param>1680</param>
+  <param>1050</param>
+  <param>1</param>
+</record>
+<record>
+  <date>2021-07-27T15:16:32</date>
+  <millis>1627388192771</millis>
+  <sequence>97</sequence>
+  <level>700</level>
+  <thread>13</thread>
+  <message>IDE_STARTUP</message>
+</record>
+<record>
+  <date>2021-07-27T15:16:34</date>
+  <millis>1627388194274</millis>
+  <sequence>119</sequence>
+  <logger>org.netbeans.ui.metrics.laf</logger>
+  <level>800</level>
+  <thread>13</thread>
+  <message>USG_LOOK_AND_FEEL</message>
+  <param>GTK</param>
+  <param>GTK look and feel</param>
+</record>
+<record>
+  <date>2021-07-27T15:16:38</date>
+  <millis>1627388198236</millis>
+  <sequence>122</sequence>
+  <level>800</level>
+  <thread>28</thread>
+  <message>MEMORY</message>
+  <key>MEMORY</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>4127072256</param>
+</record>
+<record>
+  <date>2021-07-27T15:16:40</date>
+  <millis>1627388200610</millis>
+  <sequence>124</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>19</thread>
+  <message>LOG_WINDOW_DEACTIVATED</message>
+  <key>LOG_WINDOW_DEACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+</record>
+<record>
+  <date>2021-07-27T15:16:46</date>
+  <millis>1627388206020</millis>
+  <sequence>125</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>32</thread>
+  <message>LOG_WINDOW_ACTIVATED</message>
+  <key>LOG_WINDOW_ACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+  <param>5</param>
+</record>
+<record>
+  <date>2021-07-27T15:17:04</date>
+  <millis>1627388224826</millis>
+  <sequence>127</sequence>
+  <logger>org.netbeans.ui.performance</logger>
+  <level>700</level>
+  <thread>32</thread>
+  <message>Snapshot statistics</message>
+  <param>1627388217906</param>
+  <param>Samples</param>
+  <param>668</param>
+  <param>Average</param>
+  <param>10.3338374281437</param>
+  <param>Minimum</param>
+  <param>0.284277</param>
+  <param>Maximum</param>
+  <param>27.764497</param>
+  <param>Std. deviation</param>
+  <param>1.3120265799540711</param>
+</record>
+<record>
+  <date>2021-07-27T15:17:47</date>
+  <millis>1627388267189</millis>
+  <sequence>205</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>19</thread>
+  <message>LOG_WINDOW_DEACTIVATED</message>
+  <key>LOG_WINDOW_DEACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+</record>
+<record>
+  <date>2021-07-27T15:19:50</date>
+  <millis>1627388390184</millis>
+  <sequence>206</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>48</thread>
+  <message>LOG_WINDOW_ACTIVATED</message>
+  <key>LOG_WINDOW_ACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+  <param>3</param>
+</record>
+<record>
+  <date>2021-07-27T15:20:56</date>
+  <millis>1627388456700</millis>
+  <sequence>207</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>19</thread>
+  <message>LOG_WINDOW_DEACTIVATED</message>
+  <key>LOG_WINDOW_DEACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+</record>
+<record>
+  <date>2021-07-27T15:21:11</date>
+  <millis>1627388471851</millis>
+  <sequence>208</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>49</thread>
+  <message>LOG_WINDOW_ACTIVATED</message>
+  <key>LOG_WINDOW_ACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+  <param>1</param>
+</record>
+<record>
+  <date>2021-07-27T15:21:32</date>
+  <millis>1627388492758</millis>
+  <sequence>210</sequence>
+  <logger>org.netbeans.ui.performance</logger>
+  <level>700</level>
+  <thread>49</thread>
+  <message>Snapshot statistics</message>
+  <param>1627388485835</param>
+  <param>Samples</param>
+  <param>668</param>
+  <param>Average</param>
+  <param>10.32979584580838</param>
+  <param>Minimum</param>
+  <param>3.643683</param>
+  <param>Maximum</param>
+  <param>25.72544</param>
+  <param>Std. deviation</param>
+  <param>1.1255342986794517</param>
+</record>
+<record>
+  <date>2021-07-27T15:21:32</date>
+  <millis>1627388492762</millis>
+  <sequence>211</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>19</thread>
+  <message>LOG_WINDOW_DEACTIVATED</message>
+  <key>LOG_WINDOW_DEACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+</record>
+<record>
+  <date>2021-07-27T15:52:25</date>
+  <millis>1627390345558</millis>
+  <sequence>295</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>53</thread>
+  <message>LOG_WINDOW_ACTIVATED</message>
+  <key>LOG_WINDOW_ACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+  <param>2</param>
+</record>
+<record>
+  <date>2021-07-27T15:52:32</date>
+  <millis>1627390352320</millis>
+  <sequence>297</sequence>
+  <logger>org.netbeans.ui.performance</logger>
+  <level>700</level>
+  <thread>53</thread>
+  <message>Snapshot statistics</message>
+  <param>1627390345396</param>
+  <param>Samples</param>
+  <param>669</param>
+  <param>Average</param>
+  <param>10.318590246636782</param>
+  <param>Minimum</param>
+  <param>5.458368</param>
+  <param>Maximum</param>
+  <param>21.387703</param>
+  <param>Std. deviation</param>
+  <param>0.9725187827095662</param>
+</record>
+<record>
+  <date>2021-07-27T15:52:33</date>
+  <millis>1627390353476</millis>
+  <sequence>384</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>63</thread>
+  <message>INDEXING_STARTED</message>
+  <key>INDEXING_STARTED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>0</param>
+</record>
+<record>
+  <date>2021-07-27T15:52:33</date>
+  <millis>1627390353484</millis>
+  <sequence>385</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>63</thread>
+  <message>INDEXING_FINISHED</message>
+  <key>INDEXING_FINISHED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>2</param>
+</record>
+<record>
+  <date>2021-07-27T15:52:33</date>
+  <millis>1627390353554</millis>
+  <sequence>389</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>19</thread>
+  <message>LOG_WINDOW_DEACTIVATED</message>
+  <key>LOG_WINDOW_DEACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+</record>
+<record>
+  <date>2021-07-27T15:52:50</date>
+  <millis>1627390370218</millis>
+  <sequence>95</sequence>
+  <level>300</level>
+  <thread>13</thread>
+  <message>CPU INFO</message>
+  <param>1</param>
+</record>
+<record>
+  <date>2021-07-27T15:52:50</date>
+  <millis>1627390370233</millis>
+  <sequence>96</sequence>
+  <level>300</level>
+  <thread>13</thread>
+  <message>SCREEN SIZE</message>
+  <param>1680</param>
+  <param>1050</param>
+  <param>1</param>
+</record>
+<record>
+  <date>2021-07-27T15:52:50</date>
+  <millis>1627390370234</millis>
+  <sequence>97</sequence>
+  <level>700</level>
+  <thread>13</thread>
+  <message>IDE_STARTUP</message>
+</record>
+<record>
+  <date>2021-07-27T15:52:51</date>
+  <millis>1627390371661</millis>
+  <sequence>119</sequence>
+  <logger>org.netbeans.ui.metrics.laf</logger>
+  <level>800</level>
+  <thread>13</thread>
+  <message>USG_LOOK_AND_FEEL</message>
+  <param>GTK</param>
+  <param>GTK look and feel</param>
+</record>
+<record>
+  <date>2021-07-27T15:52:55</date>
+  <millis>1627390375568</millis>
+  <sequence>122</sequence>
+  <level>800</level>
+  <thread>28</thread>
+  <message>MEMORY</message>
+  <key>MEMORY</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>4127072256</param>
+</record>
+<record>
+  <date>2021-07-27T15:53:15</date>
+  <millis>1627390395880</millis>
+  <sequence>124</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>32</thread>
+  <message>INDEXING_STARTED</message>
+  <key>INDEXING_STARTED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>0</param>
+</record>
+<record>
+  <date>2021-07-27T15:53:15</date>
+  <millis>1627390395881</millis>
+  <sequence>125</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>32</thread>
+  <message>INDEXING_FINISHED</message>
+  <key>INDEXING_FINISHED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>1</param>
+</record>
+<record>
+  <date>2021-07-27T15:53:15</date>
+  <millis>1627390395943</millis>
+  <sequence>129</sequence>
   <logger>org.netbeans.ui.focus</logger>
   <level>500</level>
   <thread>19</thread>

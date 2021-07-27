@@ -5,6 +5,7 @@
         <group>
             <file>file:/home/btstajyer/NetBeansProjects/TersanMonitor/src/com/trs/bt/windows/EditorMonitorTopComponent.java</file>
             <file>file:/home/btstajyer/NetBeansProjects/TersanMonitor/src/com/trs/bt/controller/PrinterController.java</file>
+            <file>file:/home/btstajyer/NetBeansProjects/TersanMonitor/src/com/trs/bt/providers/ComponentTransporter.java</file>
             <file>file:/home/btstajyer/NetBeansProjects/TersanMonitor/src/com/trs/bt/windows/ExplorerTreeMonitorTopComponent.java</file>
         </group>
     </open-files>
